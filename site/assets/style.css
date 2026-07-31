@@ -319,6 +319,67 @@ footer {
 footer a:hover { color: var(--ink-dim); }
 footer .v { color: var(--ink-faint); }
 
+/* ---------- journal: index ---------- */
+.journal-list { border-top: 1px solid var(--line); margin-top: 3rem; }
+.journal-list a {
+  display: block;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid var(--line);
+  transition: padding-left var(--slow) var(--ease);
+}
+.journal-list a:hover { padding-left: 0.8rem; }
+.journal-list .n {
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.journal-list h2 { font-size: clamp(1.5rem, 4vw, 2.4rem); margin: 0.7rem 0 0.6rem; max-width: 24ch; }
+.journal-list .dek { color: var(--ink-dim); font-size: 1rem; max-width: 52ch; margin: 0; }
+
+/* ---------- journal: the essay (long-form reading) ---------- */
+.essay-head { padding-block: clamp(9rem, 24vh, 15rem) clamp(2.5rem, 6vh, 4rem); }
+.essay-head .eyebrow { margin-bottom: 1.4rem; }
+.essay-head h1 {
+  font-size: clamp(2.1rem, 6.5vw, 4rem);
+  max-width: 20ch;
+  line-height: 1.1;
+}
+.essay-head .byline {
+  margin-top: 1.8rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: flex;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+}
+.essay-head .rule { height: 1px; background: var(--line); margin-top: 3rem; }
+
+.prose { max-width: 38rem; font-size: clamp(1.08rem, 1.5vw, 1.24rem); line-height: 1.78; padding-block: clamp(2rem, 5vh, 3.5rem) clamp(5rem, 14vh, 10rem); }
+.prose > p { max-width: none; }
+.prose > p + p { margin-top: 1.5rem; }
+.prose > p:first-of-type { color: var(--ink); }
+.prose > p:first-of-type::first-letter {
+  font-size: 3.2em;
+  float: left;
+  line-height: 0.82;
+  padding: 0.02em 0.12em 0 0;
+  color: var(--accent);
+}
+.prose em { font-style: italic; color: var(--ink); }
+.prose strong { font-weight: 400; color: var(--accent); }
+.prose a { border-bottom: 1px solid var(--ink-faint); transition: border-color var(--slow) var(--ease); }
+.prose a:hover { border-color: var(--ink); }
+.prose hr { border: 0; height: 1px; background: var(--line); margin: 2.5rem 0; }
+
+.essay-foot { border-top: 1px solid var(--line); padding-block: 3rem; }
+.essay-foot .backlink { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-dim); }
+.essay-foot .backlink:hover { color: var(--ink); }
+
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

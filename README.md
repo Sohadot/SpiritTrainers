@@ -161,8 +161,11 @@ SpiritTrainers/
     ├── buyer-fit.html
     ├── brand-potential.html
     ├── acquisition.html
+    ├── journal/               ← the rendered Journal (index + 6 essays, SEO + JSON-LD)
     ├── assets/                ← style.css + app.js (no external deps)
-    └── data/                  ← deploy mirror of the JSON the site renders
+    ├── data/                  ← deploy mirror of the JSON the site renders
+    ├── sitemap.xml            ← generated; all pages
+    └── robots.txt
 ```
 
 > The canonical structured data lives in `/data/`. `site/data/` is a deploy

@@ -31,11 +31,11 @@
 | 2 | [When a Name Becomes Infrastructure](when-a-name-becomes-infrastructure.md) | the load-bearing economics of a category word |
 | 3 | [The Difference Between a Profession and a Category](profession-vs-category.md) | altitude: role vs. space |
 | 4 | [Why Generic Brands Rarely Lead Categories](why-generic-brands-rarely-lead.md) | why descriptive names don't lead |
+| 5 | [The Linguistics of Human Development](the-linguistics-of-human-development.md) | the missing hypernym; the lexical gap |
+| 6 | [The Name That Arrives Before Its Market](the-name-that-arrives-before-its-market.md) | naming ahead of consolidation |
 
-## Planned (not yet written)
-
-- The Linguistics of Human Development
-- The Name That Arrives Before Its Market
+The site renders each essay at `site/journal/<slug>.html`; the markdown here is
+the canonical source (keep the two in sync — a Tier 2 change).
 
 Note that every title is about **language, categories, and positioning** — not
 about training itself. That is what keeps the Journal part of *this* asset rather
