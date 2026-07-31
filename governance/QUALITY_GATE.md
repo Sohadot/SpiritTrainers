@@ -63,7 +63,7 @@
 ## How to run the gate
 
 1. Read the diff against G1–G3 first — meaning failures are the costly ones.
-2. Serve the site locally (`cd site && python3 -m http.server`) and click every
+2. Serve the site locally (`python3 -m http.server` from the repo root) and click every
    changed page, with and without JS, and with reduced-motion on.
 3. Validate every changed JSON file.
 4. For Tier 1/Tier 2 changes, confirm the `DECISION_LOG.md` entry exists.

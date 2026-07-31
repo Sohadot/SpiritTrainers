@@ -89,15 +89,19 @@ claim, to its consequences. Read top to bottom:
 
 ## The site
 
-The site under [`site/`](site/) is an **interactive thesis**, not a landing page
-— fully static, with no accounts, video, dashboards, or trainers. Its doctrine:
-*the idea is the interface.* Deep near-black ground, a single typographic voice,
-generous space, slow motion, and no people or spiritual clichés. Each scroll
-poses a question or delivers a one-word answer, so the reader arrives at the name
-— *Spirit Trainers* — on their own.
+The site is served **from the repository root** — `index.html` and its pages sit
+at the top level so the custom domain (`CNAME` → `spirittrainers.com`) serves the
+interactive experience directly, not this README. It is an **interactive
+thesis**, not a landing page — fully static, with no accounts, video, dashboards,
+or trainers. Its doctrine: *the idea is the interface.* Deep near-black ground, a
+single typographic voice, generous space, slow motion, and no people or spiritual
+clichés. Each scroll poses a question or delivers a one-word answer, so the reader
+arrives at the name — *Spirit Trainers* — on their own.
+
+`.nojekyll` tells GitHub Pages to serve the hand-built files verbatim (no Jekyll).
 
 ```sh
-cd site && python3 -m http.server 8080   # then open http://localhost:8080
+python3 -m http.server 8080   # from the repo root, then open http://localhost:8080
 ```
 
 ## What this asset optimizes for
@@ -116,6 +120,19 @@ See [`ASSET_THESIS.md`](ASSET_THESIS.md) §6 for the honest trade-off, and
 ```
 SpiritTrainers/
 ├── README.md
+│
+│   ── the site, served at the domain root ──
+├── index.html                ← the interactive thesis (home)
+├── thesis.html
+├── buyer-fit.html
+├── brand-potential.html
+├── acquisition.html
+├── journal/                  ← rendered Journal (index + 6 essays, SEO + JSON-LD)
+├── assets/                   ← style.css + app.js (no external deps)
+├── sitemap.xml               ← generated
+├── robots.txt                ← generated
+├── CNAME                     ← spirittrainers.com
+├── .nojekyll                 ← serve files verbatim on GitHub Pages
 │
 │   ── the argument, in order ──
 ├── OBSERVATION.md             ← the plain fact
@@ -146,31 +163,21 @@ SpiritTrainers/
 │   ├── buyer-fit.md
 │   ├── brand-potential.md
 │   ├── acquisition.md
-│   └── journal/               ← reference essays on names & categories
+│   └── journal/               ← canonical essay source (markdown)
 │
 ├── data/                      ← structured data rendered by the site
 │   ├── buyers.json
 │   ├── category-map.json
 │   └── naming-analysis.json
 │
-├── static/                    ← reserved; intentionally minimal
+├── tools/                     ← dependency-free build helpers
+│   └── build_journal.py       ← regenerates journal/ + sitemap.xml + robots.txt
 │
-└── site/                      ← the interactive thesis (self-contained)
-    ├── index.html
-    ├── thesis.html
-    ├── buyer-fit.html
-    ├── brand-potential.html
-    ├── acquisition.html
-    ├── journal/               ← the rendered Journal (index + 6 essays, SEO + JSON-LD)
-    ├── assets/                ← style.css + app.js (no external deps)
-    ├── data/                  ← deploy mirror of the JSON the site renders
-    ├── sitemap.xml            ← generated; all pages
-    └── robots.txt
+└── static/                    ← reserved; intentionally minimal
 ```
 
-> The canonical structured data lives in `/data/`. `site/data/` is a deploy
-> mirror so `site/` is self-contained and can be served as its own root; keep the
-> two in sync when data changes (a Tier 2 change per `CHANGE_CONTROL.md`).
+> The site is served from the repository root, so `data/buyers.json` (the
+> canonical data) is also the path the site fetches — no deploy mirror is needed.
 
 ## Editing
 

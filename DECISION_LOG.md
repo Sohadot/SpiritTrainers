@@ -17,6 +17,27 @@ Format for each entry:
 
 ---
 
+## [2026-07-31] Serve the site from the repository root  (ID: D-011)
+- **Decision:** Promote the static site out of `site/` to the repository root, so
+  `index.html` and its pages sit at the top level. Added `.nojekyll`; kept
+  `CNAME` (spirittrainers.com). Removed the now-redundant `site/data/` mirror —
+  the canonical `data/` is now the path the site fetches. Updated
+  `tools/build_journal.py` to write `journal/`, `sitemap.xml`, and `robots.txt`
+  at the root.
+- **Rationale:** GitHub Pages served the repo root and, finding no root
+  `index.html`, rendered `README.md` at the custom domain — so visitors saw the
+  README instead of the site. Serving from the root fixes this with no Pages
+  setting change and matches the canonical URLs and sitemap already authored
+  (`spirittrainers.com/thesis.html`, `/journal/…`).
+- **Alternatives considered:**
+  - *Move the site to `/docs` and switch the Pages source* — rejected: requires a
+    GitHub settings change the repo cannot make itself, and offers no benefit over
+    root given the canonicals are already root-relative.
+  - *A root `index.html` redirect into `site/`* — rejected: breaks the
+    root-relative canonical URLs and adds a redirect hop.
+- **Supersedes:** adjusts the deployment detail of D-004 (the site's doctrine is
+  unchanged; only its location moved).
+
 ## [2026-07-31] Adopt the intellectual-paper spine  (ID: D-006)
 - **Decision:** Structure the asset and the site as an argument —
   **Observation → Thesis → Category → Implications → Acquisition** — rather than a
