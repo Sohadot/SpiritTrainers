@@ -17,6 +17,24 @@ Format for each entry:
 
 ---
 
+## [2026-07-31] Add self-hosted, on-brand Open Graph share cards  (ID: D-012)
+- **Decision:** Generate 1200×630 PNG share cards for every page
+  (`assets/og/*.png`) via `tools/build_og.py` (Pillow), and add `og:image` +
+  `twitter:image` (`summary_large_image`) to all pages. Also added the OG block —
+  and the previously-missing `canonical` — to the five root pages.
+- **Rationale:** Links shared with strategic buyers should present an on-brand
+  card, not a blank preview; and the root pages lacked canonical/OG entirely. The
+  cards follow `BRAND_ARCHITECTURE.md` (near-black ground, one serif voice, no
+  people or imagery) so social previews match the asset's register.
+- **Alternatives considered:**
+  - *Render cards with a headless browser (Playwright/Chromium)* — rejected:
+    heavier and unnecessary; Pillow gives full control with one dependency.
+  - *A single generic share image for all pages* — rejected: per-page cards carry
+    each page's line and are stronger for sharing specific essays.
+- **Note:** cards are fetched by social crawlers only, never loaded at runtime, so
+  they stay within `SECURITY_POLICY.md`.
+- **Supersedes:** none.
+
 ## [2026-07-31] Serve the site from the repository root  (ID: D-011)
 - **Decision:** Promote the static site out of `site/` to the repository root, so
   `index.html` and its pages sit at the top level. Added `.nojekyll`; kept

@@ -192,12 +192,17 @@ def essay_page(e):
   <meta property="og:description" content="{html.escape(e['desc'])}" />
   <meta property="og:url" content="{url}" />
   <meta property="og:locale" content="en" />
+  <meta property="og:image" content="{BASE}/assets/og/{e['slug']}.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Spirit Trainers Journal — {t}" />
   <meta property="article:section" content="Spirit Trainers Journal" />
   <meta property="article:published_time" content="{DATE}" />
   <meta property="article:modified_time" content="{DATE}" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{t}" />
   <meta name="twitter:description" content="{html.escape(e['desc'])}" />
+  <meta name="twitter:image" content="{BASE}/assets/og/{e['slug']}.png" />
   <link rel="stylesheet" href="../assets/style.css" />
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
   <script type="application/ld+json">{json.dumps(crumbs, ensure_ascii=False)}</script>
@@ -282,7 +287,12 @@ def index_page():
   <meta property="og:title" content="Spirit Trainers Journal" />
   <meta property="og:description" content="{html.escape(desc)}" />
   <meta property="og:url" content="{url}" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="{BASE}/assets/og/journal.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Spirit Trainers Journal — essays on names, categories, and positioning" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{BASE}/assets/og/journal.png" />
   <link rel="stylesheet" href="../assets/style.css" />
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head>
@@ -315,22 +325,27 @@ def index_page():
 '''
 
 
-for e in ESSAYS:
-    open(os.path.join(OUT, e["slug"] + ".html"), "w").write(essay_page(e))
-open(os.path.join(OUT, "index.html"), "w").write(index_page())
-print("wrote", len(ESSAYS), "essay pages + index into journal/")
+def main():
+    for e in ESSAYS:
+        open(os.path.join(OUT, e["slug"] + ".html"), "w").write(essay_page(e))
+    open(os.path.join(OUT, "index.html"), "w").write(index_page())
+    print("wrote", len(ESSAYS), "essay pages + index into journal/")
 
-# ---- sitemap.xml + robots.txt ----
-urls = [f"{BASE}/", f"{BASE}/thesis.html", f"{BASE}/buyer-fit.html",
-        f"{BASE}/brand-potential.html", f"{BASE}/acquisition.html",
-        f"{BASE}/journal/"] + [f"{BASE}/journal/{e['slug']}.html" for e in ESSAYS]
-sm = ['<?xml version="1.0" encoding="UTF-8"?>',
-      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-for u in urls:
-    pr = "1.0" if u.endswith("/") and "journal" not in u else ("0.9" if u == f"{BASE}/journal/" else "0.7")
-    sm.append(f"  <url><loc>{u}</loc><lastmod>{DATE}</lastmod><priority>{pr}</priority></url>")
-sm.append("</urlset>")
-open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(sm) + "\n")
-open(os.path.join(ROOT, "robots.txt"), "w").write(
-    "User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % BASE)
-print("wrote sitemap.xml + robots.txt")
+    # ---- sitemap.xml + robots.txt ----
+    urls = [f"{BASE}/", f"{BASE}/thesis.html", f"{BASE}/buyer-fit.html",
+            f"{BASE}/brand-potential.html", f"{BASE}/acquisition.html",
+            f"{BASE}/journal/"] + [f"{BASE}/journal/{e['slug']}.html" for e in ESSAYS]
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in urls:
+        pr = "1.0" if u.endswith("/") and "journal" not in u else ("0.9" if u == f"{BASE}/journal/" else "0.7")
+        sm.append(f"  <url><loc>{u}</loc><lastmod>{DATE}</lastmod><priority>{pr}</priority></url>")
+    sm.append("</urlset>")
+    open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(sm) + "\n")
+    open(os.path.join(ROOT, "robots.txt"), "w").write(
+        "User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % BASE)
+    print("wrote sitemap.xml + robots.txt")
+
+
+if __name__ == "__main__":
+    main()
