@@ -15,32 +15,50 @@ ESSAYS = [
          title="Why Categories Need Names",
          dek="A name is an act of gathering: it turns a scatter of instances into a category people can join, study, and defend.",
          desc="Why a category is a word before it is a market — how a name gathers scattered practice into a category and becomes the coordinate system a market is measured in.",
-         kw="category naming, category creation, naming strategy, brand category, positioning"),
+         kw="category naming, category creation, naming strategy, brand category, positioning",
+         related=["when-a-name-becomes-infrastructure", "the-linguistics-of-human-development", "profession-vs-category"]),
     dict(slug="when-a-name-becomes-infrastructure", n=2,
          title="When a Name Becomes Infrastructure",
          dek="An entire market can run on a single phrase. Like good infrastructure, the word disappears from view precisely because everything depends on it.",
          desc="How a category name behaves like infrastructure — carrying a market's search, comparison, identity, and investment — and why owning that junction is worth more than a domain.",
-         kw="category name, market infrastructure, naming, positioning, strategic domain, category ownership"),
+         kw="category name, market infrastructure, naming, positioning, strategic domain, category ownership",
+         related=["why-categories-need-names", "the-defensibility-of-a-category-name", "the-name-that-arrives-before-its-market"]),
     dict(slug="profession-vs-category", n=3,
          title="The Difference Between a Profession and a Category",
          dek="A profession is a role; a category is the space roles sit in. Confusing the two is the most common way people misjudge what a name is worth.",
          desc="Profession versus category: why a name that operates at category altitude is worth far more than a job title, and how to tell which altitude a phrase is at.",
-         kw="profession vs category, category altitude, naming, positioning, brand strategy"),
+         kw="profession vs category, category altitude, naming, positioning, brand strategy",
+         related=["why-categories-need-names", "why-generic-brands-rarely-lead", "the-defensibility-of-a-category-name"]),
     dict(slug="why-generic-brands-rarely-lead", n=4,
          title="Why Generic Brands Rarely Lead Categories",
          dek="The most descriptive name rarely wins. Category-leading names are not descriptions — they are compressed arguments about the space.",
          desc="Why generic, descriptive names rarely lead categories, and why the names that do are specific, ownable, and carry a non-obvious claim about the space.",
-         kw="generic brand, category leader, naming strategy, descriptive name, positioning, brand naming"),
+         kw="generic brand, category leader, naming strategy, descriptive name, positioning, brand naming",
+         related=["profession-vs-category", "why-names-feel-inevitable", "when-a-name-becomes-infrastructure"]),
     dict(slug="the-linguistics-of-human-development", n=5,
          title="The Linguistics of Human Development",
          dek="Grit, resilience, readiness, character — a domain rich in specific words and empty of the one general word that would gather them.",
          desc="A linguistic reading of human development: the human interior as a lexical gap — abundant hyponyms, a missing hypernym — and what a true category name would be.",
-         kw="linguistics of human development, lexical gap, hypernym, superordinate term, category name, resilience, character"),
+         kw="linguistics of human development, lexical gap, hypernym, superordinate term, category name, resilience, character",
+         related=["why-categories-need-names", "why-names-feel-inevitable", "the-name-that-arrives-before-its-market"]),
     dict(slug="the-name-that-arrives-before-its-market", n=6,
          title="The Name That Arrives Before Its Market",
          dek="Some names arrive early enough to help decide what a category becomes — framing the space while its shape is still soft.",
          desc="How a name can precede its market: markets form around shared agreements made of language, so a well-placed name can frame a category while it is still forming.",
-         kw="category naming, naming ahead of market, latent category, positioning, first mover naming, category framing"),
+         kw="category naming, naming ahead of market, latent category, positioning, first mover naming, category framing",
+         related=["when-a-name-becomes-infrastructure", "the-defensibility-of-a-category-name", "why-names-feel-inevitable"]),
+    dict(slug="why-names-feel-inevitable", n=7,
+         title="Why the Best Names Feel Inevitable",
+         dek="The strongest category names are not experienced as invented but recognized — as if the word had been missing rather than absent.",
+         desc="Why the best category names feel inevitable: the phenomenology of recognition, why a well-formed name in an open slot reads as discovered rather than made, and why that feeling signals value.",
+         kw="inevitable name, category naming, brand naming, recognition, naming strategy, positioning, lexical gap",
+         related=["the-linguistics-of-human-development", "the-name-that-arrives-before-its-market", "why-categories-need-names"]),
+    dict(slug="the-defensibility-of-a-category-name", n=8,
+         title="The Defensibility of a Category Name",
+         dek="A product can be out-built; the word a market thinks in cannot. Owning the category name is a position competitors must route around, not through.",
+         desc="Why a category name is defensible in a way products are not: it becomes the coordinate system rivals must position against, and owning it is a moat priced by what depends on it.",
+         kw="category name, defensibility, moat, brand naming, positioning, category ownership, strategic asset, acquisition",
+         related=["when-a-name-becomes-infrastructure", "profession-vs-category", "the-name-that-arrives-before-its-market"]),
 ]
 BY_SLUG = {e["slug"]: e for e in ESSAYS}
 DATE = "2026-07-31"
@@ -68,7 +86,9 @@ def md_body_to_html(md):
         if not p:
             continue
         p = html.escape(p)
-        # inline: **strong** then *em* (escape already applied)
+        # inline: [text](href) links, then **strong**, then *em*
+        # (html.escape leaves [] () intact, so markdown links survive)
+        p = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', p)
         p = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", p)
         p = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", p)
         p = p.replace("\n", " ")
@@ -109,6 +129,25 @@ def essay_page(e):
         links.append(f'<a class="backlink" href="{nx["slug"]}.html">{html.escape(nx["title"])} →</a>')
     prev_next = '\n        '.join(links)
 
+    # "Related reading" — strong internal links across the Journal
+    rel = [BY_SLUG[s] for s in e.get("related", []) if s in BY_SLUG]
+    rel_cards = "\n".join(
+        f'''        <a href="{r['slug']}.html">
+          <span class="n">Essay {r['n']:02d}</span>
+          <h3>{html.escape(r['title'])}</h3>
+          <p class="dek">{html.escape(r['dek'])}</p>
+        </a>''' for r in rel)
+    related_html = f'''    <section class="related">
+      <div class="wrap">
+        <p class="eyebrow">Related reading</p>
+        <nav class="journal-list compact" aria-label="Related essays">
+{rel_cards}
+        </nav>
+        <p class="related-more">This essay is part of the <a href="index.html">Spirit Trainers Journal</a> — the reasoning behind the <a href="../thesis.html">thesis</a> and the <a href="../acquisition.html">category acquisition</a>.</p>
+      </div>
+    </section>
+''' if rel else ""
+
     ld = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -116,6 +155,7 @@ def essay_page(e):
         "description": e["desc"],
         "articleSection": "Spirit Trainers Journal",
         "keywords": e["kw"],
+        "relatedLink": [f"{BASE}/journal/{r['slug']}.html" for r in rel],
         "url": url,
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "datePublished": DATE,
@@ -182,7 +222,7 @@ def essay_page(e):
       </div>
     </article>
 
-    <div class="essay-foot">
+{related_html}    <div class="essay-foot">
       <div class="wrap" style="display:flex;gap:1.4rem 2.4rem;flex-wrap:wrap;justify-content:space-between">
         {prev_next}
       </div>
