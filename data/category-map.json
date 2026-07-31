@@ -1,0 +1,28 @@
+{
+  "_version": "0.1.0",
+  "_updated": "2026-07-31",
+  "_note": "The layer model and the 'one name, many markets' map rendered by the site. No market-size figures are asserted; sectors are named, not measured.",
+  "layers": [
+    { "id": "skill", "label": "Skill", "gloss": "what you can do", "named": true },
+    { "id": "knowledge", "label": "Knowledge", "gloss": "what you know", "named": true },
+    { "id": "intelligence", "label": "Intelligence", "gloss": "how fast you process", "named": true },
+    { "id": "spirit", "label": "Spirit", "gloss": "how you use all of it", "named": false, "claim": "the unnamed layer this category claims" }
+  ],
+  "existing_trainer_categories": [
+    { "name": "Athletic Trainers", "trains": "physical capacity" },
+    { "name": "Personal Trainers", "trains": "one-to-one physical conditioning" },
+    { "name": "Corporate Trainers", "trains": "organizational skill" },
+    { "name": "Dog Trainers", "trains": "animal behavior" },
+    { "name": "AI Trainers", "trains": "machine behavior" },
+    { "name": "Spirit Trainers", "trains": "the human interior", "status": "unclaimed" }
+  ],
+  "markets": [
+    { "id": "executive", "label": "Executive & Leadership Coaching", "angle": "judgment and composure at the top" },
+    { "id": "wellbeing", "label": "Corporate Wellbeing & Resilience", "angle": "sustaining people through pressure" },
+    { "id": "readiness", "label": "Military & First-Responder Readiness", "angle": "performance when it is hardest" },
+    { "id": "education", "label": "Education & Youth Development", "angle": "character before credentials" },
+    { "id": "sport", "label": "Sports Psychology & Mental Performance", "angle": "the inner game" },
+    { "id": "rehab", "label": "Rehabilitation & Recovery", "angle": "rebuilding the will to continue" },
+    { "id": "higher-ed", "label": "Higher Education Institutes", "angle": "centers for leadership and human development" }
+  ]
+}
