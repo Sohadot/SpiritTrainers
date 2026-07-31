@@ -5,7 +5,7 @@ import html, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "content/journal")
-OUT = os.path.join(ROOT, "site/journal")
+OUT = os.path.join(ROOT, "journal")  # site is served from the repo root
 BASE = "https://spirittrainers.com"
 os.makedirs(OUT, exist_ok=True)
 
@@ -278,7 +278,7 @@ def index_page():
 for e in ESSAYS:
     open(os.path.join(OUT, e["slug"] + ".html"), "w").write(essay_page(e))
 open(os.path.join(OUT, "index.html"), "w").write(index_page())
-print("wrote", len(ESSAYS), "essay pages + index into site/journal/")
+print("wrote", len(ESSAYS), "essay pages + index into journal/")
 
 # ---- sitemap.xml + robots.txt ----
 urls = [f"{BASE}/", f"{BASE}/thesis.html", f"{BASE}/buyer-fit.html",
@@ -290,7 +290,7 @@ for u in urls:
     pr = "1.0" if u.endswith("/") and "journal" not in u else ("0.9" if u == f"{BASE}/journal/" else "0.7")
     sm.append(f"  <url><loc>{u}</loc><lastmod>{DATE}</lastmod><priority>{pr}</priority></url>")
 sm.append("</urlset>")
-open(os.path.join(ROOT, "site/sitemap.xml"), "w").write("\n".join(sm) + "\n")
-open(os.path.join(ROOT, "site/robots.txt"), "w").write(
+open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(sm) + "\n")
+open(os.path.join(ROOT, "robots.txt"), "w").write(
     "User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % BASE)
 print("wrote sitemap.xml + robots.txt")

@@ -8,8 +8,8 @@ site remains fully static (`governance/SECURITY_POLICY.md`).
 Regenerates the site Journal from the canonical markdown.
 
 - **Reads:** `content/journal/*.md` (the canonical essay source).
-- **Writes:** `site/journal/index.html`, `site/journal/<slug>.html` (one per
-  essay), plus `site/sitemap.xml` and `site/robots.txt`.
+- **Writes:** `journal/index.html`, `journal/<slug>.html` (one per essay), plus
+  `sitemap.xml` and `robots.txt` — all at the repo root, where the site is served.
 - Injects per-page SEO (title, description, keywords, canonical, Open Graph,
   Twitter card) and inline JSON-LD (`Article` + `BreadcrumbList` on essays,
   `Blog` on the index). JSON-LD is inline data, not an external script, so it is

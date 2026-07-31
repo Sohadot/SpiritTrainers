@@ -34,8 +34,9 @@
 | 5 | [The Linguistics of Human Development](the-linguistics-of-human-development.md) | the missing hypernym; the lexical gap |
 | 6 | [The Name That Arrives Before Its Market](the-name-that-arrives-before-its-market.md) | naming ahead of consolidation |
 
-The site renders each essay at `site/journal/<slug>.html`; the markdown here is
-the canonical source (keep the two in sync — a Tier 2 change).
+The site renders each essay at `/journal/<slug>.html` (served from the repo
+root); the markdown here is the canonical source. Run `tools/build_journal.py` to
+regenerate the rendered pages (keep the two in sync — a Tier 2 change).
 
 Note that every title is about **language, categories, and positioning** — not
 about training itself. That is what keeps the Journal part of *this* asset rather
