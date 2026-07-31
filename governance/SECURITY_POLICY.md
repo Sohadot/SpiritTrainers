@@ -29,6 +29,11 @@ The site is self-contained:
 Any proposal to add a runtime dependency is a Tier 2 change and must justify why
 the value outweighs re-introducing supply-chain risk.
 
+**Social share cards** (`assets/og/*.png`, referenced by `og:image` /
+`twitter:image`) are self-hosted and fetched by social crawlers only — they are
+never loaded into the page at runtime. They therefore introduce no runtime
+external request and stay within this policy.
+
 ## 3. Content integrity is a security property
 
 For a category asset, an unauthorized edit to `CANONICAL_MEANING.md` or

@@ -129,6 +129,7 @@ SpiritTrainers/
 ├── acquisition.html
 ├── journal/                  ← rendered Journal (index + 6 essays, SEO + JSON-LD)
 ├── assets/                   ← style.css + app.js (no external deps)
+│   └── og/                   ← generated Open Graph share cards (1200×630 PNG)
 ├── sitemap.xml               ← generated
 ├── robots.txt                ← generated
 ├── CNAME                     ← spirittrainers.com
@@ -170,8 +171,9 @@ SpiritTrainers/
 │   ├── category-map.json
 │   └── naming-analysis.json
 │
-├── tools/                     ← dependency-free build helpers
-│   └── build_journal.py       ← regenerates journal/ + sitemap.xml + robots.txt
+├── tools/                     ← build helpers
+│   ├── build_journal.py       ← regenerates journal/ + sitemap.xml + robots.txt
+│   └── build_og.py            ← regenerates assets/og/ share cards (Pillow)
 │
 └── static/                    ← reserved; intentionally minimal
 ```
