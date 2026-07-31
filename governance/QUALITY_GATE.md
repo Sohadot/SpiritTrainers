@@ -9,6 +9,9 @@
 
 ### G1 — Claim boundary
 - [ ] Nothing violates `CLAIM_BOUNDARY.md` §3 (the never-claim list).
+- [ ] Nothing pushes the asset toward a listed non-goal in `NON_GOALS.md`.
+- [ ] No claim to **create** a category/industry; only that an existing practice
+      **lacks a canonical name**.
 - [ ] No medical, therapeutic, or clinical claim, stated or implied.
 - [ ] No religious, mystical, or metaphysical claim.
 - [ ] No revenue / traffic / market-size figure stated as fact.

@@ -1,11 +1,23 @@
 # CATEGORY_THESIS.md
 
-> This document answers exactly one question:
+> **The keystone of the asset.** This is the reference document the rest is
+> derived from — the evidence, the linguistics, the positioning, and the site
+> are all elaborations of the argument made here. `ASSET_THESIS.md` governs the
+> asset constitutionally; *this* file is what the asset intellectually *is*.
+>
+> It answers exactly one question:
 > **Why could "Spirit Trainers" become the name of a category?**
 >
 > It does **not** answer "why is training important?" — that question is a trap
-> that turns this asset into one of a thousand coaching sites. We stay on the
+> that turns the asset into one more site in a crowded field. We stay on the
 > name.
+>
+> **Documents derived from this thesis:**
+> - `CATEGORY_EVIDENCE.md` — the real "___ Trainers" series (§2 here, in full).
+> - `SEMANTIC_POSITION.md` — the linguistic case (§4 here, formalized).
+> - `NAMING_POWER.md` — why a name can be a category at all (the premise of §1).
+> - `CATEGORY_POSITIONING.md` — where the named category sits in the world.
+> - `NON_GOALS.md` — the failure modes of §5, stated as hard boundaries.
 
 ---
 

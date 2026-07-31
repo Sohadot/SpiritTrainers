@@ -17,6 +17,64 @@ Format for each entry:
 
 ---
 
+## [2026-07-31] Adopt the intellectual-paper spine  (ID: D-006)
+- **Decision:** Structure the asset and the site as an argument —
+  **Observation → Thesis → Category → Implications → Acquisition** — rather than a
+  product layout (About / Mission / Vision / Features). Add `OBSERVATION.md` as the
+  pre-thesis fact, and make `CATEGORY_THESIS.md` the explicit keystone from which
+  the other documents derive (`ASSET_THESIS.md` remains the constitutional layer).
+- **Rationale:** A sovereign asset should read as a reasoned paper that leads the
+  reader to the conclusion, not a startup brochure. The spine makes the thesis feel
+  like a logical result rather than a claim. Aligns with the Sohadot method
+  (thesis → structure → interface).
+- **Alternatives considered:** Keeping a conventional README/marketing structure —
+  rejected: reads as a product, undercuts the "category artifact" positioning.
+- **Supersedes:** none (refines the presentation of D-001).
+
+## [2026-07-31] Center everything on Category Naming, never coaching  (ID: D-007)
+- **Decision:** The asset's subject is *category naming*, not coaching, therapy,
+  wellbeing, or training method. The home and thesis surfaces are kept free of the
+  word "coaching"; it appears only where a buyer archetype is named on a deep page.
+- **Rationale:** If a visitor reads "coaching" in the first minute, the asset loses
+  the distinctiveness that separates it from a thousand development sites.
+- **Alternatives considered:** Framing around the practice (training the interior) —
+  kept as *support*, but demoted below the naming argument, which is what makes the
+  asset unique.
+- **Supersedes:** reinforces `CLAIM_BOUNDARY.md` Drift A.
+
+## [2026-07-31] Never claim to create a category; only that one lacks a name  (ID: D-008)
+- **Decision:** All copy uses the disciplined framing: *an existing,
+  cross-disciplinary practice lacks a canonical category name* — never "we are
+  creating a new industry/category."
+- **Rationale:** The modest claim is more honest and more defensible, and therefore
+  more credible to a strategic buyer. Over-claiming invites dismissal.
+- **Alternatives considered:** "Creating the category of Spirit Trainers" —
+  rejected as an over-claim that damages credibility.
+- **Supersedes:** none.
+
+## [2026-07-31] Add the naming/linguistics document layer  (ID: D-009)
+- **Decision:** Add `OBSERVATION.md`, `CATEGORY_EVIDENCE.md`, `NAMING_POWER.md`,
+  `SEMANTIC_POSITION.md`, and `NON_GOALS.md` to the governing set.
+- **Rationale:** These deepen the asset's true differentiator — that its value is
+  linguistic and category-theoretic, not operational. `NON_GOALS.md` in particular
+  prevents misreading from the first contact.
+- **Alternatives considered:** Folding these into existing files — rejected: each
+  deserves standalone authority and citation.
+- **Supersedes:** none.
+
+## [2026-07-31] Repoint the Journal at names & categories  (ID: D-010)
+- **Decision:** The Journal is elevated to *part of the thesis* and writes about
+  names, categories, and positioning — not about training the interior. Replaced the
+  three training-centric seed essays with: *Why Categories Need Names*, *When a Name
+  Becomes Infrastructure*, *The Difference Between a Profession and a Category*, and
+  *Why Generic Brands Rarely Lead Categories*.
+- **Rationale:** Essays about language and category formation reinforce what makes
+  the asset unique; essays about training would make it read like a development blog.
+- **Alternatives considered:** Keeping the training-focused essays — rejected as
+  off-thesis. (They were removed, not merely deprecated.)
+- **Supersedes:** D-005 (redefines the Journal's subject; the "reference not
+  frequency" principle from D-005 stands).
+
 ## [2026-07-31] Establish the asset as a category document, not a platform  (ID: D-001)
 - **Decision:** Build SpiritTrainers.com as a conceptual "category acquisition"
   asset — a set of governing thesis documents plus a static philosophical site —
