@@ -376,6 +376,17 @@ footer .v { color: var(--ink-faint); }
 .prose a:hover { border-color: var(--ink); }
 .prose hr { border: 0; height: 1px; background: var(--line); margin: 2.5rem 0; }
 
+/* related reading (internal links) */
+.related { border-top: 1px solid var(--line); padding-block: clamp(3rem, 8vh, 5rem); }
+.related .eyebrow { margin-bottom: 1.5rem; }
+.journal-list.compact { margin-top: 0; border-top: 1px solid var(--line); }
+.journal-list.compact a { padding: 1.5rem 0; }
+.journal-list.compact h3 { font-size: clamp(1.2rem, 2.6vw, 1.6rem); margin: 0.5rem 0 0.4rem; max-width: 26ch; font-weight: 400; letter-spacing: -0.01em; }
+.journal-list.compact .dek { font-size: 0.92rem; max-width: 56ch; }
+.related-more { margin-top: 2rem; color: var(--ink-dim); font-size: 0.95rem; max-width: 52ch; }
+.related-more a { border-bottom: 1px solid var(--ink-faint); }
+.related-more a:hover { border-color: var(--ink); color: var(--ink); }
+
 .essay-foot { border-top: 1px solid var(--line); padding-block: 3rem; }
 .essay-foot .backlink { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-dim); }
 .essay-foot .backlink:hover { color: var(--ink); }

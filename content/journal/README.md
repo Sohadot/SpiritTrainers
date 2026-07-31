@@ -33,6 +33,11 @@
 | 4 | [Why Generic Brands Rarely Lead Categories](why-generic-brands-rarely-lead.md) | why descriptive names don't lead |
 | 5 | [The Linguistics of Human Development](the-linguistics-of-human-development.md) | the missing hypernym; the lexical gap |
 | 6 | [The Name That Arrives Before Its Market](the-name-that-arrives-before-its-market.md) | naming ahead of consolidation |
+| 7 | [Why the Best Names Feel Inevitable](why-names-feel-inevitable.md) | recognition; absent vs. missing; fit |
+| 8 | [The Defensibility of a Category Name](the-defensibility-of-a-category-name.md) | the moat: rivals must position against the word |
+
+Each rendered essay carries inline internal links and a **Related reading** block
+that cross-links the Journal and points back to the thesis and acquisition pages.
 
 The site renders each essay at `/journal/<slug>.html` (served from the repo
 root); the markdown here is the canonical source. Run `tools/build_journal.py` to
