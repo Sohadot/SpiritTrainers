@@ -1,41 +1,48 @@
 # Spirit Trainers Journal
 
-> A small body of reference-grade essays — not a blog. The Journal exists to give
-> the name a living body of serious writing: it raises the asset's authority,
-> attracts qualified search interest, and preserves a path to operation if a
-> decision is later made *not* to sell. It never becomes a content business.
+> Part of the thesis, not a side blog. The Journal is a small body of
+> reference-grade essays about **names, categories, and positioning** — the
+> forces the whole asset turns on. It is deliberately *not* about training,
+> wellbeing, or self-improvement. Its subject is the same as the asset's: how a
+> word becomes the identity of a category.
 
 ## What the Journal is
 
-- **Reference, not frequency.** A few deep, durable essays that stay relevant for
-  years — closer to position papers than posts.
-- **On-register.** Every essay obeys `CLAIM_BOUNDARY.md`: no coaching pitch, no
-  spiritual claim, no medical claim, no invented figures.
-- **About the interior, and about the name.** Each essay develops some facet of
-  the human interior *and* quietly reinforces why it needs a canonical name.
+- **An extension of the argument.** Each essay develops one facet of *why names
+  make categories* — the premise the asset rests on. The essays could stand in
+  front of any category-naming thesis; that generality is the point.
+- **Reference, not frequency.** A few durable essays, closer to position papers
+  than posts.
+- **On-register and on-boundary.** Every essay obeys `CLAIM_BOUNDARY.md` and
+  `NON_GOALS.md`: no coaching pitch, no spiritual claim, no medical claim, no
+  invented figures, no "how to improve yourself."
 
-## What the Journal is not
+## What the Journal is *not*
 
-- Not motivational writing.
-- Not SEO filler.
-- Not tied to any author's personality or authority.
+- Not motivational or self-help writing ("how to be happy" is out of scope).
+- Not about the mechanics of training the human interior.
+- Not SEO filler, and not tied to any author's personality.
 
-## Seed essays
+## Essays
 
-| # | Title | File |
-|---|-------|------|
-| 1 | Inner Strength Is Not Motivation | [`inner-strength-vs-motivation.md`](inner-strength-vs-motivation.md) |
-| 2 | Can Human Resilience Be Taught? | [`can-resilience-be-taught.md`](can-resilience-be-taught.md) |
-| 3 | The Future of Human Development | [`the-future-of-human-development.md`](the-future-of-human-development.md) |
+| # | Title | On |
+|---|-------|----|
+| 1 | [Why Categories Need Names](why-categories-need-names.md) | names as an act of gathering |
+| 2 | [When a Name Becomes Infrastructure](when-a-name-becomes-infrastructure.md) | the load-bearing economics of a category word |
+| 3 | [The Difference Between a Profession and a Category](profession-vs-category.md) | altitude: role vs. space |
+| 4 | [Why Generic Brands Rarely Lead Categories](why-generic-brands-rarely-lead.md) | why descriptive names don't lead |
+| 5 | [The Linguistics of Human Development](the-linguistics-of-human-development.md) | the missing hypernym; the lexical gap |
+| 6 | [The Name That Arrives Before Its Market](the-name-that-arrives-before-its-market.md) | naming ahead of consolidation |
 
-## Planned (not yet written)
+The site renders each essay at `site/journal/<slug>.html`; the markdown here is
+the canonical source (keep the two in sync — a Tier 2 change).
 
-- What Makes a Great Trainer?
-- Why People Follow the Wrong Mentors
-- Why Independence Matters More Than Inspiration
+Note that every title is about **language, categories, and positioning** — not
+about training itself. That is what keeps the Journal part of *this* asset rather
+than one more development blog.
 
 ## Adding an essay
 
 Adding a Journal essay is a Tier 2 change (`governance/CHANGE_CONTROL.md`): it
-must pass the full `QUALITY_GATE.md`, add a row to the table above, and — if it
-introduces any new framing — a `DECISION_LOG.md` entry.
+must pass the full `QUALITY_GATE.md`, stay inside `NON_GOALS.md`, add a row to the
+table above, and — if it introduces any new framing — a `DECISION_LOG.md` entry.
