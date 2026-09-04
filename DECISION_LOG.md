@@ -17,6 +17,31 @@ Format for each entry:
 
 ---
 
+## [2026-09-04] PATCH: reconcile two residual ACQUISITION_THESIS phrasings to D-013  (ID: D-014)
+- **Decision:** Correct the last two phrasings in `ACQUISITION_THESIS.md` that
+  still framed the transaction as owning the category/words rather than holding a
+  category *position* — the §1 question ("…worth to **own** the name of a market…
+  if someone else **owns** it first" → **hold** / **holds**) and the §3 lead-in
+  ("When a buyer **\"acquires the category\"**…" → "When a buyer **acquires the
+  category position**…"). Bump the asset to **0.2.1** across every authoritative
+  current-version marker: the site footers, the journal footer template
+  (`tools/build_journal.py`) with a regenerated `journal/`,
+  `governance/VERSIONING_POLICY.md`, and `data/*.json` provenance.
+- **Rationale:** Pure housekeeping consistency with D-013. These were the only
+  remaining ownership-framed lines in the governing set; the live site was already
+  correct, so nothing user-facing changes but the version marker. No thesis,
+  canonical-meaning, claim-boundary, positioning, or content change.
+- **Alternatives considered:** Deferring to the next substantive change — rejected:
+  a small internal contradiction with D-013 is cheap to close now, before the build
+  phase is declared done.
+- **Supersedes:** none. Refines the *application* of **D-013**, which stands
+  unchanged.
+- **Tier / version:** Editorial (Tier 3) PATCH per `governance/CHANGE_CONTROL.md`;
+  **0.2.0 → 0.2.1**. A Tier 3 change does not require a `DECISION_LOG` entry, but
+  one is recorded so the log's top entry keeps stating the current asset version,
+  as `VERSIONING_POLICY.md` §1 requires. No canonical-meaning change, so the
+  pre-1.0 MINOR/PATCH rules apply.
+
 ## [2026-09-04] Reframe from "missing name" to "unconsolidated category position"  (ID: D-013)
 - **Decision:** Retire the framing that the phrase "Spirit Trainers" does not
   exist, was always available, or that its adoption is inevitable — and that
