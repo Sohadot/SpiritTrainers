@@ -9,7 +9,7 @@
 ## 1. Positioning statement
 
 > **Spirit Trainers** names the layer *beneath* skills, knowledge, and
-> intelligence — the layer that decides how those are used. It is not a
+> intelligence — the layer that governs how those are used, under pressure. It is not a
 > sub-category of coaching, wellness, or education. It is a name that sits
 > *above* all of them, because each of those fields is already, quietly, doing
 > spirit-training under a different label.
@@ -26,7 +26,7 @@ Most human-development markets operate on the top three layers of a person:
    ├─────────────────────────────────────┤
    │  INTELLIGENCE — how fast you process │
    ├═════════════════════════════════════┤
-   │  SPIRIT     — how you use all of it  │  ← the unnamed layer
+   │  SPIRIT     — how you govern it all  │  ← the unnamed layer
    └─────────────────────────────────────┘
 ```
 

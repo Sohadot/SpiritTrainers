@@ -92,3 +92,8 @@ was available rather than manufactured. (The formal linguistic treatment is in
   usage statistics are asserted here.
 - The evidence supports the *observation* and the *naturalness* of the name. The
   strategic value it implies is argued elsewhere, not smuggled in here.
+- Prior and parallel uses of the phrase itself — an abandoned trademark
+  application, an internal corporate role, a footwear collision — and the claim's
+  honest limits are catalogued separately in
+  `PRIOR_USE_AND_CATEGORY_DILIGENCE.md`. This file concerns the *series* the name
+  belongs to, not the phrase's usage history.

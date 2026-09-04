@@ -14,8 +14,8 @@ brands. Yet no concise, category-level expression has emerged for those whose
 purpose is the deliberate cultivation of human character, resilience, judgment,
 and inner strength.
 
-The practitioners exist. The institutions exist. The market exists. The
-*category name* does not.
+The practitioners exist. The institutions exist. The market exists. Its language
+is fragmented; no consolidated *category name* has formed.
 
 ## Why this repository exists
 
@@ -34,7 +34,7 @@ Some markets exist before they have a canonical name.
 > The practice is ancient.
 > The institutions already exist.
 > The market already exists.
-> The category name does not.
+> Its language is fragmented; no consolidated category name has formed.
 
 *Spirit Trainers* is proposed as that name: a category-level identity for
 organizations and practitioners who deliberately develop the human interior —
@@ -43,8 +43,9 @@ institutions.
 
 The asset does not claim to invent a field. It makes one narrow, defensible
 observation and follows it to its conclusion: an existing, cross-disciplinary
-practice lacks a canonical category name, and the phrase that would fill the gap
-is available.
+practice lacks a *consolidated* category name, and the position that phrase would
+fill is open. The words themselves have scattered prior uses — disclosed, not
+hidden, in `PRIOR_USE_AND_CATEGORY_DILIGENCE.md`.
 
 ### Why a name
 
@@ -70,17 +71,19 @@ claim, to its consequences. Read top to bottom:
 1. [`OBSERVATION.md`](OBSERVATION.md) — the plain fact the asset rests on.
 2. [`CATEGORY_THESIS.md`](CATEGORY_THESIS.md) — **the keystone.** Why this can be a *category*. Every other document derives from it.
 3. [`CATEGORY_EVIDENCE.md`](CATEGORY_EVIDENCE.md) — the real "___ Trainers" series, and where this name sits in it.
-4. [`SEMANTIC_POSITION.md`](SEMANTIC_POSITION.md) — pure linguistic analysis of the phrase.
-5. [`NAMING_POWER.md`](NAMING_POWER.md) — why names, not products, create categories.
-6. [`CANONICAL_MEANING.md`](CANONICAL_MEANING.md) — the fixed meaning of the name.
-7. [`CATEGORY_POSITIONING.md`](CATEGORY_POSITIONING.md) — where it sits; one name, many markets.
-8. [`NON_GOALS.md`](NON_GOALS.md) — what the asset is emphatically *not*.
-9. [`BUYER_LOGIC.md`](BUYER_LOGIC.md) — who could acquire it and why.
-10. [`ACQUISITION_THESIS.md`](ACQUISITION_THESIS.md) — why "acquire," not "buy."
-11. [`BRAND_ARCHITECTURE.md`](BRAND_ARCHITECTURE.md) — how the name behaves as a brand.
-12. [`CLAIM_BOUNDARY.md`](CLAIM_BOUNDARY.md) — the limits of what the asset claims.
-13. [`ASSET_THESIS.md`](ASSET_THESIS.md) — the constitutional layer that governs the whole.
-14. [`DECISION_LOG.md`](DECISION_LOG.md) — why the asset is the way it is.
+4. [`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`](PRIOR_USE_AND_CATEGORY_DILIGENCE.md) — the phrase's scattered prior uses, the lexical collisions, and the claim's honest limits.
+5. [`SOURCE_REGISTER.md`](SOURCE_REGISTER.md) — the external sources behind every factual claim, with links and dates.
+6. [`SEMANTIC_POSITION.md`](SEMANTIC_POSITION.md) — pure linguistic analysis of the phrase.
+7. [`NAMING_POWER.md`](NAMING_POWER.md) — why names, not products, create categories.
+8. [`CANONICAL_MEANING.md`](CANONICAL_MEANING.md) — the fixed meaning of the name.
+9. [`CATEGORY_POSITIONING.md`](CATEGORY_POSITIONING.md) — where it sits; one name, many markets.
+10. [`NON_GOALS.md`](NON_GOALS.md) — what the asset is emphatically *not*.
+11. [`BUYER_LOGIC.md`](BUYER_LOGIC.md) — who could acquire it and why.
+12. [`ACQUISITION_THESIS.md`](ACQUISITION_THESIS.md) — why "acquire," not "buy."
+13. [`BRAND_ARCHITECTURE.md`](BRAND_ARCHITECTURE.md) — how the name behaves as a brand.
+14. [`CLAIM_BOUNDARY.md`](CLAIM_BOUNDARY.md) — the limits of what the asset claims.
+15. [`ASSET_THESIS.md`](ASSET_THESIS.md) — the constitutional layer that governs the whole.
+16. [`DECISION_LOG.md`](DECISION_LOG.md) — why the asset is the way it is.
 
 > `CATEGORY_THESIS.md` is the intellectual keystone — the reference the rest is
 > derived from. `ASSET_THESIS.md` is the constitutional layer — the governance
@@ -139,6 +142,8 @@ SpiritTrainers/
 ├── OBSERVATION.md             ← the plain fact
 ├── CATEGORY_THESIS.md         ← the keystone
 ├── CATEGORY_EVIDENCE.md
+├── PRIOR_USE_AND_CATEGORY_DILIGENCE.md  ← prior uses + honest limits
+├── SOURCE_REGISTER.md        ← sources behind the facts
 ├── SEMANTIC_POSITION.md
 ├── NAMING_POWER.md
 ├── CANONICAL_MEANING.md

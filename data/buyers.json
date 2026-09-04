@@ -1,6 +1,6 @@
 {
-  "_version": "0.1.0",
-  "_updated": "2026-07-31",
+  "_version": "0.2.0",
+  "_updated": "2026-09-04",
   "_note": "Buyer archetypes rendered by the site's Buyer Fit page. Each archetype must recognize itself. No pricing strategy is exposed here; see BUYER_LOGIC.md for the seller-side reasoning.",
   "archetypes": [
     {

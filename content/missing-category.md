@@ -17,7 +17,7 @@ SKILL        — what you can do
 KNOWLEDGE    — what you know
 INTELLIGENCE — how fast you process
 ─────────────────────────────────
-SPIRIT       — how you use all of it   ← the unnamed layer
+SPIRIT       — how you govern it all   ← the unconsolidated layer
 ```
 
 ## Already a category, without a name

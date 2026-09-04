@@ -1,3 +1,5 @@
+<!-- rev: 2026-09-04 · asset 0.2.0 · change: v0.2 reframe — position, not novelty (D-013) -->
+
 # CLAIM_BOUNDARY.md
 
 > The single most important guardrail in the repository. It defines exactly what
@@ -9,9 +11,10 @@
 
 ## 1. The claim, stated minimally
 
-> **The activity of training the human spirit exists and is ancient. A clean,
-> canonical, top-level *name* for it does not. "Spirit Trainers" is proposed as
-> that name.**
+> **The activity of training the human spirit exists and is ancient. Its
+> language is fragmented, and no clean, *consolidated*, top-level name has formed
+> for it. "Spirit Trainers" is proposed as that consolidating name — an open
+> category *position*, not a claim to own the words.**
 
 That is the entire claim. It is deliberately narrow, because a narrow claim is a
 defensible claim.
@@ -22,8 +25,11 @@ defensible claim.
   is real and long-standing.
 - That it is currently **fragmented** across many vocabularies and fields.
 - That no consolidated top-level name has been established for it.
+- That the phrase has **scattered prior and unrelated uses**, none of which is a
+  consolidated category identity for human development.
 - That "Spirit Trainers" is linguistically well-suited to be that name.
-- That owning the name is a *strategic position*.
+- That owning the exact-match domain is a *strategic position* to consolidate
+  that name.
 
 ## 3. What the asset must NEVER claim
 
@@ -34,6 +40,13 @@ defensible claim.
 - ❌ **Revenue, traffic, valuation, or market-size figures** stated as fact.
 - ❌ That the buyer will **succeed** by acquiring the name (it sells a position,
   not a result).
+- ❌ That the phrase has **never been used** before, or that this is its **first
+  use**, or that anyone **coined** it here.
+- ❌ That the name's adoption is **inevitable**, fated, or **guaranteed**.
+- ❌ That owning `SpiritTrainers.com` confers **ownership of the words** or the
+  right to **exclude others** from using the phrase.
+- ❌ That the abandoned prior trademark makes the mark **legally clear** —
+  clearance is the buyer's own step, and the asset gives **no legal advice**.
 - ❌ Endorsement, affiliation, or partnership with any named person or
   institution that has not explicitly agreed to it.
 
@@ -55,12 +68,22 @@ Imagery or language of the soul, the sacred, energy, enlightenment.
 **Correction:** re-anchor to `CANONICAL_MEANING.md` — "spirit" means human inner
 character, resilience, purpose, and moral strength. Secular. Universal.
 
+### Drift C — toward novelty / first-use
+**Symptom:** language that says the words do not exist, were never used, are
+"unclaimed" or "available," that adoption is "inevitable," or that the buyer will
+"own the category" or "own the words."
+**Correction:** re-anchor to the *position*. The phrase has scattered prior uses
+(`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`); what is open is a *consolidated category
+position*, and that — under the exact-match domain, with a public thesis — is
+what the asset offers.
+
 ## 5. The tone boundary
 
 Even where a claim is *permitted*, it must be made in the asset's register:
-observational, not promotional. The asset **notices** that the name is available
-and inevitable; it does not **hype** it. Hype is itself a form of over-claiming —
-it claims certainty the asset cannot honestly assert.
+observational, not promotional. The asset **notices** that the category position
+is open; it does not **hype** it, and it does not promise the position will be
+filled. Hype is itself a form of over-claiming — it claims certainty the asset
+cannot honestly assert.
 
 ## 6. Why the boundary protects value
 

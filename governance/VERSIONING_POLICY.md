@@ -18,9 +18,10 @@ entry of `DECISION_LOG.md` and in the site footer.
 - **PATCH** — corrections that do not change meaning: typos, phrasing, broken
   links, styling, data fixes.
 
-The current version is **0.1.0** — the asset is coherent and complete in
-structure, but pre-1.0 because it has not yet been reviewed by its owner as
-ready for external buyers.
+The current version is **0.2.0** — the v0.2 reframe (a category *position*, not
+novelty; see D-013) plus the diligence layer
+(`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`, `SOURCE_REGISTER.md`). Still pre-1.0
+because it has not yet been reviewed by its owner as ready for external buyers.
 
 ## 2. What a MAJOR bump requires
 

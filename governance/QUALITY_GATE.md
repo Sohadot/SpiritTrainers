@@ -16,6 +16,11 @@
 - [ ] No religious, mystical, or metaphysical claim.
 - [ ] No revenue / traffic / market-size figure stated as fact.
 - [ ] No claim to have *invented* the field.
+- [ ] No **first-use / novelty** claim, no claim that adoption is **inevitable**,
+      and no claim that owning the domain confers **ownership of the words** or
+      the right to exclude others (`CLAIM_BOUNDARY.md` Drift C).
+- [ ] No claim that the abandoned prior trademark makes the mark **legally
+      clear** (no legal advice; clearance is the buyer's step).
 - [ ] No unapproved endorsement, affiliation, or named partnership.
 
 ### G2 — Canonical meaning
@@ -31,8 +36,8 @@
       language or imagery.
 
 ### G4 — Framing
-- [ ] The transaction is framed as "Acquire the Category," never "Buy this
-      Domain" / "Make an Offer."
+- [ ] The transaction is framed as an acquisition — "Acquire the position" /
+      "Acquire the category position," never "Buy this Domain" / "Make an Offer."
 - [ ] No people, nature clichés, or spiritual iconography in visuals.
 
 ### G5 — Build integrity

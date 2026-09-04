@@ -17,7 +17,9 @@
 - **not** a self-help program or a motivation product,
 - **not** a personal brand attached to any individual,
 - **not** a domain-for-sale listing,
-- **not** a claim to have invented a field, industry, or category.
+- **not** a claim to have invented a field, industry, or category,
+- **not** a claim to have coined or first-used the phrase "Spirit Trainers," or to
+  own the words themselves or exclude others from using them.
 
 ## Why each non-goal matters
 
@@ -44,6 +46,11 @@ misreading would cost.
   (`ACQUISITION_THESIS.md`).
 - **Inventing a field.** Would replace a narrow, defensible claim with an
   over-claim that is easy to dismiss. The asset *names*; it does not *found*.
+- **Coining / owning the words.** Would claim novelty the phrase does not have —
+  it has scattered prior uses (`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`) — and imply
+  a monopoly over language that a domain does not confer. The asset offers a
+  *consolidated category position* under the exact-match domain, not ownership of
+  two common words.
 
 ## The distinction the non-goals protect
 

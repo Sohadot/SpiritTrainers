@@ -8,14 +8,19 @@ strategy.*
 
 ## What is actually being acquired
 
-Not a domain, not traffic, not a codebase. Three things a name confers and a URL
-cannot:
+Not a domain flip, not traffic, not a codebase. Three things a strategic
+acquisition secures that a domain sale does not:
 
-1. **Default position** — the owner of the category name inherits the mental
-   default; competitors must name themselves *relative to it*.
-2. **Optionality** — the name can become a brand, a division, an institute, a
-   certification, or be held; the buyer acquires a set of futures.
-3. **Denial** — securing the cleanest name means no competitor can have it.
+1. **Category positioning leverage** — the holder of the exact-match name and its
+   public case starts from the strongest position to become the market's default,
+   the point competitors must name themselves *relative to*. Leverage, not a
+   guarantee.
+2. **Activation optionality** — the name can become a brand, a division, an
+   institute, a methodology, or be held defensively, subject to clearance; the
+   buyer acquires a set of futures.
+3. **Exact-domain exclusivity** — while the buyer holds SpiritTrainers.com, no
+   rival holds that exact address. Exclusivity over the identity, not over the
+   words themselves.
 
 ## The archetypes
 
