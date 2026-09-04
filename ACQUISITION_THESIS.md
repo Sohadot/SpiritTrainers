@@ -76,7 +76,7 @@ upside. It is about their **downside if a rival moves first:**
 > The name is either an asset on your balance sheet or a headline on a
 > competitor's. There is no third state where it stays neutral forever.
 
-A serious acquirer understands that clean category names do not stay available.
+A serious acquirer understands that clean category names do not stay open.
 The acquisition thesis makes ownership feel less like an opportunity to seize and
 more like a position to secure before it is taken.
 

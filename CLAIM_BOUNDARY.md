@@ -50,10 +50,10 @@ defensible claim.
 - ❌ Endorsement, affiliation, or partnership with any named person or
   institution that has not explicitly agreed to it.
 
-## 4. The two drifts (and how to catch them)
+## 4. The three drifts (and how to catch them)
 
-Nearly every over-claim is one of two drifts. Reviewers and writers should scan
-for both before anything ships.
+Nearly every over-claim is one of three drifts. Reviewers and writers should scan
+for all three before anything ships.
 
 ### Drift A — toward coaching
 **Symptom:** language that offers a service, a transformation, or a benefit to a

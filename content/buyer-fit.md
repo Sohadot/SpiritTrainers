@@ -1,4 +1,4 @@
-# Who Could Own This Category?
+# Who Could Hold This Category Position?
 
 *Source text for the site's Buyer Fit page. Anchored to `BUYER_LOGIC.md`. The
 public version makes each archetype recognize itself; it never exposes pricing
@@ -47,11 +47,11 @@ loaded "character education."
 
 ## Three ways of deciding
 
-- The **strategic** buyer asks: *"If I don't own this, who does — and what does
+- The **strategic** buyer asks: *"If I don't hold this, who does — and what does
   that cost me?"*
 - The **brand** buyer asks: *"Could this become the name people say instead of
   what I call myself?"*
-- The **defensive** buyer asks: *"Is this cheaper to own than to compete
+- The **defensive** buyer asks: *"Is this cheaper to hold than to compete
   against?"*
 
 ## Why the name is hard to replace

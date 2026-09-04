@@ -32,9 +32,12 @@ re-checked before any transaction closes.
   "SPIRIT TRAINERS," Intl. Class 041, filed 7 July 2004, applicant Jeffrey D.
   Bader (assoc. William M. Donnelly); status **dead / abandoned** (14 Sep 2005,
   failure to respond).
-- **Where:** USPTO TSDR / trademark search (search by serial 78446793); mirrored
-  on public trademark databases (e.g. Justia Trademarks, Trademarkia).
-- **Checked:** 2026-09-04. **Confidence:** Verified (status record read).
+- **Where (locator):** USPTO TSDR status record, primary —
+  `https://tsdr.uspto.gov/#caseNumber=78446793&caseType=SERIAL_NO&searchType=statusSearch`.
+  Public mirror — `https://www.trademarkia.com/spirit-trainers-78446793`.
+  Stable identifier: **U.S. serial no. 78446793**.
+- **Checked:** 2026-09-04. **Confidence:** Verified (status record read: mark
+  "SPIRIT TRAINERS", filed 2004-07-07, dead/abandoned 2005-09-14).
 - **Caveat:** point-in-time; a dead application is not a clearance opinion. Other
   filings and common-law uses may exist. Not legal advice.
 
@@ -44,10 +47,12 @@ re-checked before any transaction closes.
   category brand).
 - **Record:** ADVANCE (University of St. Gallen, HSG) best-practice report on
   SIX's culture change via its "SIX Spirit Trainer" community.
-- **Where:** advance-hsg-report.ch — best-practices case study on SIX's Spirit
-  Trainer community.
-- **Checked:** 2026-09-04. **Confidence:** Verified (secondary institutional
-  report read).
+- **Where (locator):** ADVANCE HSG best-practice report —
+  `https://www.advance-hsg-report.ch/en/best-practices/new-culture-change-via-the-six-spirit-trainer-community/`
+  (University of St. Gallen). The phrase "SIX Spirit trainer" appears in the body
+  text (~40 internal volunteer trainers; values/inclusion workshops).
+- **Checked:** 2026-09-04. **Confidence:** Verified (report page read; exact
+  phrase confirmed present).
 - **Caveat:** cited as corroboration only. No endorsement, affiliation, or
   partnership with SIX or HSG is claimed or implied.
 
@@ -57,10 +62,11 @@ re-checked before any transaction closes.
   framing understated.
 - **Record:** Hotter (UK footwear brand, Lancashire) markets a women's lace-up
   trainer named "Spirit."
-- **Where:** hotter.com (and UK footwear retailers) — Hotter "Spirit" trainers
-  product listings.
-- **Checked:** 2026-09-04. **Confidence:** Verified (retail product listings
-  read).
+- **Where (locator):** Hotter brand site — `https://www.hotter.com/` (search
+  "Spirit"); retailer product listing with a stable product code —
+  `https://www.eskisfootwear.co.uk/hotter-spirit-womens-lace-up-trainers---soft-pink-103355-p.asp`
+  (product code 103355).
+- **Checked:** 2026-09-04. **Confidence:** Verified (product listings read).
 - **Caveat:** unrelated domain; used to document the collision, not a competitor
   in human development.
 
@@ -70,11 +76,19 @@ re-checked before any transaction closes.
 - **Record:** peer-reviewed randomized controlled trials and meta-analyses of
   workplace and first-responder resilience-training programs (character-strength,
   cognitive, and emotional components), reporting measurable effects.
-- **Where:** peer-reviewed literature indexed in PubMed/PMC and journal
-  publishers (e.g. cluster-RCTs of first-responder mindfulness/resilience
-  programs; meta-analyses of workplace resilience interventions).
-- **Checked:** 2026-09-04. **Confidence:** Verified (literature exists and is
-  consistent); specific effect sizes are **not** asserted by this asset.
+- **Where (locators):** representative peer-reviewed studies, each identified by
+  DOI/PMID and PMC record:
+  - "Resilience@Work Mindfulness Program: Results From a Cluster Randomized
+    Controlled Trial With First Responders," *J Med Internet Res*, 2019 — PMID
+    **30777846**, DOI **10.2196/12894**, PMC6399574
+    (`https://pmc.ncbi.nlm.nih.gov/articles/PMC6399574/`).
+  - "Team Resilience Training in the Workplace: E-Learning Adaptation,
+    Measurement Model, and Two Pilot Studies," *JMIR Ment Health*, 2018 — PMID
+    **29720362**, DOI **10.2196/mental.8955**, PMC5956157
+    (`https://pmc.ncbi.nlm.nih.gov/articles/PMC5956157/`).
+- **Checked:** 2026-09-04. **Confidence:** Verified (both records read: titles,
+  journals, years, PMIDs, and DOIs confirmed). These are cited as examples of a
+  broader literature; specific effect sizes are **not** asserted by this asset.
 - **Caveat:** cited to establish that the practice is real and trainable — not to
   quantify outcomes, which the asset never does.
 

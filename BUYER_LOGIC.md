@@ -3,7 +3,7 @@
 > Who could acquire this category, why they would, and what they are actually
 > buying. This document is written for the seller's clarity first; its arguments
 > are then translated into the public `content/buyer-fit.md` and the site's
-> "Who Could Own This Category?" section.
+> "Who Could Hold This Category Position?" section.
 
 ---
 
@@ -100,7 +100,7 @@ honest answer — and the one the asset makes them feel — is:
 ## 6. Handoff to public content
 
 The public-facing translation of this logic lives in:
-- `content/buyer-fit.md` (the "who could own this" narrative),
+- `content/buyer-fit.md` (the "who could hold this position" narrative),
 - `data/buyers.json` (the structured archetype list the site renders),
 - the site's **Buyer Fit** page.
 

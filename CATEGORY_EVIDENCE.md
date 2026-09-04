@@ -81,7 +81,7 @@ Beyond the series logic, the phrase is phonetically and grammatically at home:
 
 Nothing about the phrase signals novelty or invention. It sounds like a term you
 half-remember already existing — which is the signature of a category name that
-was available rather than manufactured. (The formal linguistic treatment is in
+reads as recognized rather than manufactured. (The formal linguistic treatment is in
 `SEMANTIC_POSITION.md`.)
 
 ## 6. Honest limits of the evidence

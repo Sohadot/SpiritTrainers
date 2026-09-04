@@ -83,8 +83,8 @@ pattern and fills an open slot. "Spirit Trainers" fits the `[Domain] + Trainers`
 pattern and fills the one domain slot the pattern has not yet lexicalized. The
 result is the characteristic sensation of a **missing word**: on first hearing,
 mild surprise that it is *not* already a common term. Linguistically, that
-surprise is the signature of an available category name — a well-formed phrase
-occupying an empty, expected slot.
+surprise is the signature of a category name occupying an open slot — a
+well-formed phrase in an empty, expected position.
 
 ## 8. Failure conditions (linguistic only)
 

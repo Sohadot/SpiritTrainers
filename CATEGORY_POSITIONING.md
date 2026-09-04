@@ -26,7 +26,7 @@ Most human-development markets operate on the top three layers of a person:
    ├─────────────────────────────────────┤
    │  INTELLIGENCE — how fast you process │
    ├═════════════════════════════════════┤
-   │  SPIRIT     — how you govern it all  │  ← the unnamed layer
+   │  SPIRIT     — how you govern it all  │  ← the unconsolidated layer
    └─────────────────────────────────────┘
 ```
 

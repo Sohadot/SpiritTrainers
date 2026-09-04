@@ -62,11 +62,12 @@ has never been consolidated. That gap is the entire opportunity.
 
 ## 3. Why the gap exists (and why that's an advantage)
 
-The activity was never *unnamed* because it was unimportant. It was unnamed
-because it was **distributed across too many vocabularies**: religion, sport,
-therapy, philosophy, the military, education, leadership. Each field owned a
-fragment and named it in its own dialect — "grit," "resilience," "character,"
-"mental toughness," "inner strength," "readiness," "wellbeing."
+The gap exists not because the activity was unimportant, but because it was
+**distributed across too many vocabularies**: religion, sport, therapy,
+philosophy, the military, education, leadership. Each field owned a fragment and
+named it in its own dialect — "grit," "resilience," "character," "mental
+toughness," "inner strength," "readiness," "wellbeing." The words were used, over
+and over; a name for the *whole* never consolidated.
 
 No single field had the incentive — or the neutrality — to name the *whole*.
 
@@ -124,4 +125,5 @@ cross-cultural, and self-explaining — and because no institution has yet
 consolidated the top-level name. The words themselves have surfaced before, in
 scattered and unrelated ways (`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`); what has
 never formed is the consolidated name. The category is not being invented here,
-nor is the phrase. It is being **named** — proposed for consolidation — here.
+and neither is the phrase. What is proposed here is the **consolidation** — one
+name, under the exact-match domain, for a position the market has left open.

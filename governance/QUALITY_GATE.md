@@ -11,7 +11,7 @@
 - [ ] Nothing violates `CLAIM_BOUNDARY.md` §3 (the never-claim list).
 - [ ] Nothing pushes the asset toward a listed non-goal in `NON_GOALS.md`.
 - [ ] No claim to **create** a category/industry; only that an existing practice
-      **lacks a canonical name**.
+      **lacks a consolidated category-level name**.
 - [ ] No medical, therapeutic, or clinical claim, stated or implied.
 - [ ] No religious, mystical, or metaphysical claim.
 - [ ] No revenue / traffic / market-size figure stated as fact.
@@ -34,6 +34,10 @@
       help you," service/benefit-to-a-person language.
 - [ ] No **Drift B** (toward spirituality): no soul/sacred/energy/enlightenment
       language or imagery.
+- [ ] No **Drift C** (toward novelty/first-use): no "unclaimed," "available,"
+      "inevitable," "coined," "first use," or "own the category / own the words"
+      language; use "unconsolidated" / "the position is open" instead
+      (`CLAIM_BOUNDARY.md` §4, Drift C).
 
 ### G4 — Framing
 - [ ] The transaction is framed as an acquisition — "Acquire the position" /

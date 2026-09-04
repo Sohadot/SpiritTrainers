@@ -40,7 +40,8 @@ Format for each entry:
   Shifting from *novelty value* to *position value* — owning the most strategic
   interpretation of a natural phrase before the market consolidates — is more
   honest and more defensible, which is the asset's own pricing strategy
-  (`PROJECT_DOCTRINE.md` §6, `CLAIM_BOUNDARY.md` §6). Surfacing the objection
+  (`governance/PROJECT_DOCTRINE.md` §6, `CLAIM_BOUNDARY.md` §6). Surfacing the
+  objection
   first, and showing why it does not defeat the thesis, is what makes the asset
   acquisition-grade rather than merely well-written.
 - **Alternatives considered:**
@@ -61,9 +62,15 @@ Format for each entry:
   shifts the object from "the category" to a category *position*). Both stand
   except where narrowed here.
 - **Tier / version:** Constitutional (Tier 1) refinement per
-  `governance/CHANGE_CONTROL.md`; MINOR bump to **0.2.0** because the canonical
-  meaning of "Spirit" and "Trainer" (`CANONICAL_MEANING.md`) is unchanged and the
-  core observation is preserved and strengthened.
+  `governance/CHANGE_CONTROL.md`, given full Tier 1 treatment (this log entry, a
+  constitutional-tier change-control pass, and a full quality-gate run). Versioned
+  as a **MINOR** bump to **0.2.0** under the pre-1.0 exception in
+  `governance/VERSIONING_POLICY.md` §1: the canonical meaning of "Spirit" and
+  "Trainer" (`CANONICAL_MEANING.md`) is unchanged and the core observation is
+  preserved and strengthened, so this refinement increments the minor component
+  rather than forcing a 1.0/MAJOR bump. (The prior wording of the policy — "any
+  thesis change is MAJOR" — is reconciled by that explicit pre-1.0 clause, added
+  in this same change.)
 
 ## [2026-07-31] Add self-hosted, on-brand Open Graph share cards  (ID: D-012)
 - **Decision:** Generate 1200×630 PNG share cards for every page

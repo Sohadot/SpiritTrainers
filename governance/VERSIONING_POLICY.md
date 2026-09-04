@@ -12,11 +12,27 @@ entry of `DECISION_LOG.md` and in the site footer.
 
 - **MAJOR** — a change to the thesis or the canonical meaning of the name.
   Anything that would make a prior reader's understanding *wrong*. Rare, heavy,
-  always logged with full rationale.
-- **MINOR** — new material that extends the asset without changing its meaning:
-  a new journal essay, a new site section, a new buyer archetype.
+  always logged with full rationale. (See the pre-1.0 exception below, which
+  governs constitutional *refinements* made before the asset reaches 1.0.)
+- **MINOR** — new material that extends the asset without changing its meaning
+  (a new journal essay, a new site section, a new buyer archetype), **or** a
+  pre-1.0 constitutional thesis refinement as defined below.
 - **PATCH** — corrections that do not change meaning: typos, phrasing, broken
   links, styling, data fixes.
+
+**Pre-1.0 exception (0.x.0).** Before the asset reaches 1.0, a *constitutional
+thesis refinement* — a Tier 1 change that sharpens the thesis or its framing
+**without** changing the canonical meaning of "Spirit" or "Trainer"
+(`CANONICAL_MEANING.md`) and **without** making the core observation wrong — may
+increment the **MINOR** component (0.x.0) instead of forcing a 1.0 / MAJOR bump.
+It still requires full Tier 1 treatment: a `DECISION_LOG.md` entry before merge,
+a `CHANGE_CONTROL.md` constitutional-tier pass, and a full `QUALITY_GATE.md` run
+across all content. The rationale is that a pre-1.0 asset is still settling its
+own framing, so framing refinements are expected rather than exceptional.
+**After 1.0**, any change to the thesis or the canonical meaning requires a MAJOR
+bump, with no exception. The v0.2 reframe (**D-013**) is classified under this
+rule: a Tier 1 thesis refinement whose canonical meaning is unchanged, versioned
+**0.2.0**.
 
 The current version is **0.2.0** — the v0.2 reframe (a category *position*, not
 novelty; see D-013) plus the diligence layer

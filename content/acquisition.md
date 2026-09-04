@@ -39,8 +39,8 @@ A domain sale transfers only the first. This transfers all six.
 > The name is either an asset on your balance sheet or a headline on a
 > competitor's. There is no third state where it stays neutral forever.
 
-Clean category names do not stay available. Ownership is less an opportunity to
-seize than a position to secure before it is taken.
+Clean category names do not stay open. Securing one is less an opportunity to
+seize than a position to hold before it is taken.
 
 ## What is not claimed
 

@@ -56,8 +56,8 @@ manufactured; they are recognized, usually late, usually by whoever was paying
 attention first.
 
 *Spirit Trainers* reads like one of those names: a phrase you half-remember
-already existing. That quiet sense of inevitability — *there should have been a
-name like this* — is the entire asset.
+already existing. That quiet sense of recognition — *there should have been a
+name like this* — is what the asset turns on.
 
 ---
 
