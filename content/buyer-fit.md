@@ -28,7 +28,7 @@ Each sees a different value in the same name. That multiplicity is what makes th
 asset liquid.
 
 **Coaching & development platforms** — already in the category, but under a
-generic or founder-named brand. This is the umbrella name above them.
+generic or founder-named brand. This is proposed as the umbrella name above them.
 
 **Corporate wellbeing & resilience** — reframes soft "wellbeing" as serious
 "training": methodical, outcome-oriented, harder to commoditize.
@@ -57,7 +57,7 @@ loaded "character education."
 ## Why the name is hard to replace
 
 "Can't we just find another name?" The honest answer: short, positive,
-cross-cultural, two-word category names are structurally scarce. Every strong
-alternative is already owned, too niche, too clinical, or too clever to become a
-default. The rarity is not marketing — it is the reason the name has value at
+cross-cultural, two-word category names are structurally scarce. Strong
+alternatives tend to be already taken, too niche, too clinical, or too clever to
+become a default. The rarity is not marketing — it is the reason the name has value at
 all.

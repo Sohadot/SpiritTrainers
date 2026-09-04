@@ -22,7 +22,7 @@ This is a **sovereign category asset**. Its value is in meaning, not operation.
 Every choice is evaluated against one question:
 
 > *Does this make a strategic buyer more likely to conclude that "Spirit
-> Trainers" is a category worth owning?*
+> Trainers" is a category position worth securing?*
 
 If a proposed feature, page, or sentence does not serve that question, it does
 not belong — no matter how well-made it is.

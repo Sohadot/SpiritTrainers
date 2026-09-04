@@ -93,8 +93,8 @@ honest answer — and the one the asset makes them feel — is:
 
 - Short, positive, cross-cultural two-word category names are **structurally
   scarce**; you cannot brute-force one into existence.
-- Every strong alternative is either already owned, too niche, too clinical, or
-  too clever to become a default.
+- Strong alternatives tend to be already taken, or else too niche, too clinical,
+  or too clever to become a default.
 - The rarity is not marketing. It is the reason the name has value at all.
 
 ## 6. Handoff to public content
