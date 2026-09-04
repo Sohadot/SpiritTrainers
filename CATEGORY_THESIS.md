@@ -17,6 +17,8 @@
 > - `SEMANTIC_POSITION.md` — the linguistic case (§4 here, formalized).
 > - `NAMING_POWER.md` — why a name can be a category at all (the premise of §1).
 > - `CATEGORY_POSITIONING.md` — where the named category sits in the world.
+> - `PRIOR_USE_AND_CATEGORY_DILIGENCE.md` — the phrase's scattered prior uses and
+>   the claim's honest limits (the evidence behind §3 and §5).
 > - `NON_GOALS.md` — the failure modes of §5, stated as hard boundaries.
 
 ---
@@ -60,11 +62,12 @@ has never been consolidated. That gap is the entire opportunity.
 
 ## 3. Why the gap exists (and why that's an advantage)
 
-The activity was never *unnamed* because it was unimportant. It was unnamed
-because it was **distributed across too many vocabularies**: religion, sport,
-therapy, philosophy, the military, education, leadership. Each field owned a
-fragment and named it in its own dialect — "grit," "resilience," "character,"
-"mental toughness," "inner strength," "readiness," "wellbeing."
+The gap exists not because the activity was unimportant, but because it was
+**distributed across too many vocabularies**: religion, sport, therapy,
+philosophy, the military, education, leadership. Each field owned a fragment and
+named it in its own dialect — "grit," "resilience," "character," "mental
+toughness," "inner strength," "readiness," "wellbeing." The words were used, over
+and over; a name for the *whole* never consolidated.
 
 No single field had the incentive — or the neutrality — to name the *whole*.
 
@@ -102,8 +105,14 @@ built to avoid them:
   service, it collapses from a category into one more competitor. The site must
   never do this. (See `CLAIM_BOUNDARY.md`.)
 - **Over-claiming.** If the asset claims to have *invented* human development, it
-  loses credibility. The claim is narrow and defensible: *the activity exists;
-  the canonical name does not.*
+  loses credibility. The claim is narrow and defensible: *the activity exists; a
+  consolidated top-level name does not.*
+- **Novelty / first-use over-claim.** Claiming the phrase never existed, is
+  "unclaimed," or that its adoption is inevitable is false and easily disproven —
+  the words have scattered prior uses, and in British English "trainers" even
+  collides with footwear. The claim is that no *consolidated* name has formed, not
+  that the words are new. (See `PRIOR_USE_AND_CATEGORY_DILIGENCE.md` and
+  `CLAIM_BOUNDARY.md` Drift C.)
 - **Sectarian capture.** If "Spirit" is read as religious doctrine, the category
   loses its cross-cultural reach. The canonical meaning is fixed in
   `CANONICAL_MEANING.md` to prevent this.
@@ -113,5 +122,8 @@ built to avoid them:
 "Spirit Trainers" can become a category name because it names a real, ancient,
 currently-fragmented human activity with a phrase that is short, positive,
 cross-cultural, and self-explaining — and because no institution has yet
-consolidated the top-level name. The category is not being invented here. It is
-being **named** here.
+consolidated the top-level name. The words themselves have surfaced before, in
+scattered and unrelated ways (`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`); what has
+never formed is the consolidated name. The category is not being invented here,
+and neither is the phrase. What is proposed here is the **consolidation** — one
+name, under the exact-match domain, for a position the market has left open.

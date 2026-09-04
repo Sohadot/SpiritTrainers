@@ -17,6 +17,61 @@ Format for each entry:
 
 ---
 
+## [2026-09-04] Reframe from "missing name" to "unconsolidated category position"  (ID: D-013)
+- **Decision:** Retire the framing that the phrase "Spirit Trainers" does not
+  exist, was always available, or that its adoption is inevitable — and that
+  acquiring it means *owning a category*. Adopt a narrower, stronger position:
+  the human-development market is real but its language is **fragmented**, no
+  *consolidated* category-level name has formed, and "Spirit Trainers" is
+  proposed as that consolidating name — anchored by the exact-match `.com` and a
+  public thesis. The transaction transfers a **category position**, not ownership
+  of the words. Add a diligence layer (`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`,
+  `SOURCE_REGISTER.md`) disclosing prior/parallel uses of the phrase — an
+  abandoned 2004 U.S. trademark application (serial 78446793, yoga/meditation,
+  abandoned 2005), SIX's internal "Spirit Trainer" culture community, and a
+  British-English footwear collision ("Spirit" trainers as shoes) — plus the
+  evidence that the underlying practice is real and trainable. Reframe the site
+  (home, thesis, buyer-fit, acquisition) and the governing set to match. Asset
+  version → 0.2.0.
+- **Rationale:** External diligence shows the phrase has scattered prior uses and
+  a real lexical collision, so "the name does not exist / is unclaimed /
+  inevitable" is both false and disprovable by the buyer in one search. A claim
+  that survives the buyer's own research is worth more than one that does not.
+  Shifting from *novelty value* to *position value* — owning the most strategic
+  interpretation of a natural phrase before the market consolidates — is more
+  honest and more defensible, which is the asset's own pricing strategy
+  (`governance/PROJECT_DOCTRINE.md` §6, `CLAIM_BOUNDARY.md` §6). Surfacing the
+  objection
+  first, and showing why it does not defeat the thesis, is what makes the asset
+  acquisition-grade rather than merely well-written.
+- **Alternatives considered:**
+  - *Keep the v0.1 "available and inevitable" framing* — rejected: a buyer's
+    ten-minute search finds the prior uses and the footwear collision, and an
+    undisclosed objection the buyer discovers costs more credibility than a
+    disclosed one.
+  - *Drop the name over the prior uses / collision* — rejected: none of the prior
+    uses is a consolidated category identity; the position is still open, and the
+    exact-match `.com` is exactly what lets an owner fix the human-development
+    reading.
+  - *Assert the phrase is now legally clear because the 2004 mark was abandoned* —
+    rejected as an over-claim and as unauthorized legal advice; clearance is
+    disclosed as the buyer's own step.
+- **Supersedes:** partially supersedes **D-008** (refines "an existing practice
+  lacks a canonical name" to "…lacks a *consolidated* name, though the words have
+  scattered prior uses") and **D-003** (keeps the "acquire, not buy" posture but
+  shifts the object from "the category" to a category *position*). Both stand
+  except where narrowed here.
+- **Tier / version:** Constitutional (Tier 1) refinement per
+  `governance/CHANGE_CONTROL.md`, given full Tier 1 treatment (this log entry, a
+  constitutional-tier change-control pass, and a full quality-gate run). Versioned
+  as a **MINOR** bump to **0.2.0** under the pre-1.0 exception in
+  `governance/VERSIONING_POLICY.md` §1: the canonical meaning of "Spirit" and
+  "Trainer" (`CANONICAL_MEANING.md`) is unchanged and the core observation is
+  preserved and strengthened, so this refinement increments the minor component
+  rather than forcing a 1.0/MAJOR bump. (The prior wording of the policy — "any
+  thesis change is MAJOR" — is reconciled by that explicit pre-1.0 clause, added
+  in this same change.)
+
 ## [2026-07-31] Add self-hosted, on-brand Open Graph share cards  (ID: D-012)
 - **Decision:** Generate 1200×630 PNG share cards for every page
   (`assets/og/*.png`) via `tools/build_og.py` (Pillow), and add `og:image` +

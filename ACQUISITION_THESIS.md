@@ -2,8 +2,8 @@
 
 > Why this asset should be framed as a *category acquisition* rather than a
 > domain sale, and how that framing changes everything the buyer sees. This is
-> the document that justifies the phrase "Acquire the Category" instead of "Buy
-> this Domain."
+> the document that justifies acquisition framing — "Acquire the position," a
+> category *position* — instead of "Buy this Domain."
 
 ---
 
@@ -35,19 +35,25 @@ the commodity market and into strategic valuation.
 
 When a buyer "acquires the category," they receive a coherent bundle:
 
-1. **The canonical name** — `SpiritTrainers.com`, the clean top-level identity.
+1. **The exact-match domain** — `SpiritTrainers.com`, the clean top-level
+   identity.
 2. **The thesis** — a public, reasoned argument (this repository and site) that
    the name *is* a category. The buyer inherits not just the name but the
    *case* for it, already made.
 3. **The meaning** — a fixed, defensible definition (`CANONICAL_MEANING.md`) that
    protects the name from drift and dilution.
-4. **The positioning** — a map (`CATEGORY_POSITIONING.md`) of every market the
-   name can enter.
-5. **The optionality** — the right to activate the name as a brand, institute,
-   certification, division, or defensive hold.
+4. **The market architecture** — a map (`CATEGORY_POSITIONING.md`) of every
+   market the name can be activated into.
+5. **The diligence record** — the prior/parallel uses, the lexical collisions,
+   the evidence, and the claim's boundaries
+   (`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`, `SOURCE_REGISTER.md`), disclosed rather
+   than left for the buyer to discover.
+6. **The optionality** — the right to activate the name as a brand, institute,
+   methodology, division, or defensive hold, subject to the buyer's own
+   clearance.
 
-A domain sale transfers item 1. A category acquisition transfers all five. The
-difference *is* the thesis.
+A domain sale transfers item 1. A category-position acquisition transfers all
+six. The difference *is* the thesis — and the diligence behind it.
 
 ## 4. Why the thesis travels with the asset
 
@@ -70,7 +76,7 @@ upside. It is about their **downside if a rival moves first:**
 > The name is either an asset on your balance sheet or a headline on a
 > competitor's. There is no third state where it stays neutral forever.
 
-A serious acquirer understands that clean category names do not stay available.
+A serious acquirer understands that clean category names do not stay open.
 The acquisition thesis makes ownership feel less like an opportunity to seize and
 more like a position to secure before it is taken.
 
@@ -78,19 +84,23 @@ more like a position to secure before it is taken.
 
 To keep the thesis honest and therefore credible:
 
-- It does **not** promise revenue, traffic, or growth figures.
-- It does **not** claim the category is already established — only that the name
-  for it is available and inevitable.
+- It does **not** promise adoption, revenue, traffic, or growth figures.
+- It does **not** claim the category is already established, nor that the words
+  have never been used — only that the market has not **consolidated** around a
+  name for it, and that the position is open.
+- It does **not** claim that owning the domain confers ownership of the phrase or
+  the right to exclude others from it.
 - It does **not** guarantee outcomes for the buyer. It sells a *position*, and is
-  explicit that activating the position is the buyer's work.
+  explicit that activating it — and clearing it for the buyer's own use — is the
+  buyer's work.
 
 Honesty here is strategic, not just ethical: an over-claiming thesis is easy to
 dismiss. A precise, self-limiting thesis is hard to argue with.
 
 ## 7. The close
 
-The site ends not with "Make an Offer" but with **"Acquire the Category."**
-Everything upstream — the meaning, the positioning, the buyer logic — exists so
-that by the time the reader reaches those three words, the reframe is complete:
-they are no longer evaluating a domain. They are deciding whether to let the
-category belong to someone else.
+The site ends not with "Make an Offer" but with **"Acquire the position."**
+Everything upstream — the meaning, the market architecture, the diligence, the
+buyer logic — exists so that by the time the reader reaches those three words, the
+reframe is complete: they are no longer evaluating a domain. They are deciding
+whether to let the category position belong to someone else.

@@ -1,7 +1,7 @@
 {
-  "_version": "0.1.0",
-  "_updated": "2026-07-31",
-  "_note": "Linguistic and strategic analysis of the name, rendered by the site's thesis / brand pages. Anchored to CANONICAL_MEANING.md.",
+  "_version": "0.2.0",
+  "_updated": "2026-09-04",
+  "_note": "Linguistic and strategic analysis of the name, rendered by the site's thesis / brand pages. Anchored to CANONICAL_MEANING.md. Prior/parallel uses and limits: PRIOR_USE_AND_CATEGORY_DILIGENCE.md.",
   "words": {
     "spirit": {
       "is": "human inner character, resilience, purpose, and moral strength",
@@ -26,10 +26,12 @@
   "failure_modes": [
     { "id": "drift-coaching", "risk": "presented as a coaching service, it collapses into one competitor", "guard": "CLAIM_BOUNDARY.md" },
     { "id": "over-claim", "risk": "claiming to have invented the field destroys credibility", "guard": "ASSET_THESIS.md" },
-    { "id": "sectarian", "risk": "'spirit' read as religion loses cross-cultural reach", "guard": "CANONICAL_MEANING.md" }
+    { "id": "sectarian", "risk": "'spirit' read as religion loses cross-cultural reach", "guard": "CANONICAL_MEANING.md" },
+    { "id": "lexical-collision", "risk": "in British English 'trainers' also means footwear ('Spirit' is a real shoe model), so the phrase carries an unrelated reading in some registers", "guard": "PRIOR_USE_AND_CATEGORY_DILIGENCE.md" },
+    { "id": "novelty-overclaim", "risk": "claiming the phrase is new, unclaimed, or that adoption is inevitable is false and disprovable in one search", "guard": "CLAIM_BOUNDARY.md" }
   ],
   "scarcity": {
     "claim": "short, positive, cross-cultural two-word category names are structurally scarce",
-    "why": "you cannot brute-force a phrase that feels both obvious and unclaimed; strong alternatives are already owned, too niche, too clinical, or too clever to become a default"
+    "why": "you cannot brute-force a phrase that feels both obvious and unconsolidated; strong alternatives are already owned, too niche, too clinical, or too clever to become a default"
   }
 }

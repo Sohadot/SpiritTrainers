@@ -11,11 +11,16 @@
 - [ ] Nothing violates `CLAIM_BOUNDARY.md` §3 (the never-claim list).
 - [ ] Nothing pushes the asset toward a listed non-goal in `NON_GOALS.md`.
 - [ ] No claim to **create** a category/industry; only that an existing practice
-      **lacks a canonical name**.
+      **lacks a consolidated category-level name**.
 - [ ] No medical, therapeutic, or clinical claim, stated or implied.
 - [ ] No religious, mystical, or metaphysical claim.
 - [ ] No revenue / traffic / market-size figure stated as fact.
 - [ ] No claim to have *invented* the field.
+- [ ] No **first-use / novelty** claim, no claim that adoption is **inevitable**,
+      and no claim that owning the domain confers **ownership of the words** or
+      the right to exclude others (`CLAIM_BOUNDARY.md` Drift C).
+- [ ] No claim that the abandoned prior trademark makes the mark **legally
+      clear** (no legal advice; clearance is the buyer's step).
 - [ ] No unapproved endorsement, affiliation, or named partnership.
 
 ### G2 — Canonical meaning
@@ -29,10 +34,14 @@
       help you," service/benefit-to-a-person language.
 - [ ] No **Drift B** (toward spirituality): no soul/sacred/energy/enlightenment
       language or imagery.
+- [ ] No **Drift C** (toward novelty/first-use): no "unclaimed," "available,"
+      "inevitable," "coined," "first use," or "own the category / own the words"
+      language; use "unconsolidated" / "the position is open" instead
+      (`CLAIM_BOUNDARY.md` §4, Drift C).
 
 ### G4 — Framing
-- [ ] The transaction is framed as "Acquire the Category," never "Buy this
-      Domain" / "Make an Offer."
+- [ ] The transaction is framed as an acquisition — "Acquire the position" /
+      "Acquire the category position," never "Buy this Domain" / "Make an Offer."
 - [ ] No people, nature clichés, or spiritual iconography in visuals.
 
 ### G5 — Build integrity

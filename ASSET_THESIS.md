@@ -23,10 +23,14 @@ This asset is a **category document**, not a business.
 It does not claim to invent a field. Human beings have trained the human spirit
 for as long as there have been mentors, elders, coaches, chaplains, drill
 instructors, and teachers. The activity is ancient. What is missing is not the
-activity — it is a **single, clean, ownable name** that names the whole of it.
+activity, and not the words — it is a **single, clean, consolidated name** that
+gathers the whole of it. The phrase itself has surfaced before, in scattered and
+unrelated ways (`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`); what has never formed is
+the consolidated, category-level name.
 
 SpiritTrainers.com proposes that name and then does the one thing a name cannot
-do for itself: it argues, in public, that the name is inevitable.
+do for itself: it argues, in public, that the name is category-shaped and the
+position open.
 
 ## 3. What this asset is *not*
 
@@ -50,8 +54,8 @@ because:
    category name inherits the mental default. "Spirit Trainers" is short,
    positive, cross-cultural, and reads as if the category already exists.
 2. **Naming compression is rare and non-reproducible.** You cannot manufacture a
-   two-word phrase that feels both obvious and unclaimed. When one exists, it is
-   scarce by construction.
+   two-word phrase that feels both obvious and unconsolidated. When one exists, it
+   is scarce by construction.
 3. **The value is latent, not operational.** The buyer is not paying for what
    the site earns today. They are paying to stop the name from being obvious to
    someone else tomorrow.
@@ -85,7 +89,7 @@ Therefore the objective of every artifact in this repository is singular:
 This asset succeeds if a strategically minded acquirer reads it and concludes:
 
 1. "Spirit Trainers" is a category, not a slogan.
-2. The category is real, growing, and currently unnamed at the top level.
+2. The category is real, growing, and currently unconsolidated at the top level.
 3. My organization could see itself *inside* this name.
 4. If I do not secure it, a competitor eventually will.
 

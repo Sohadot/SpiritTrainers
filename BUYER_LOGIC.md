@@ -3,24 +3,28 @@
 > Who could acquire this category, why they would, and what they are actually
 > buying. This document is written for the seller's clarity first; its arguments
 > are then translated into the public `content/buyer-fit.md` and the site's
-> "Who Could Own This Category?" section.
+> "Who Could Hold This Category Position?" section.
 
 ---
 
 ## 1. What the buyer is really buying
 
-The buyer is **not** buying a domain, traffic, or a codebase. They are buying
-**three things a name confers and a URL cannot:**
+The buyer is **not** buying a domain flip, traffic, or a codebase. They are
+buying **three things a strategic acquisition secures that a domain sale does
+not:**
 
-1. **Default position.** The organization that owns the category name inherits
-   the mental default in its market. Owning "Spirit Trainers" means every
-   competitor has to name themselves *relative to you*.
-2. **Optionality.** The name can be activated as a brand, a division, an
-   institute, a certification, a media property, or held defensively. The buyer
-   purchases a set of futures, not one product.
-3. **Denial.** Acquiring the category name means no competitor can. In a market
-   defined by trust and authority, denying a rival the cleanest name is itself a
-   strategic gain.
+1. **Category positioning leverage.** The party that holds the exact-match name
+   and the public case for it starts from the strongest position to become the
+   market's default — the point every competitor then has to name themselves
+   *relative to*. It is leverage, not a guarantee: the position still has to be
+   activated.
+2. **Activation optionality.** The name can be activated as a brand, a division,
+   an institute, a methodology, a media property, or held defensively — subject
+   to the buyer's own clearance. The buyer purchases a set of futures, not one
+   product.
+3. **Exact-domain exclusivity.** While the buyer holds `SpiritTrainers.com`, no
+   rival holds that exact address. This is exclusivity over the canonical
+   *identity*, not over the two words themselves (`CLAIM_BOUNDARY.md`).
 
 ## 2. Buyer archetypes
 
@@ -89,14 +93,14 @@ honest answer — and the one the asset makes them feel — is:
 
 - Short, positive, cross-cultural two-word category names are **structurally
   scarce**; you cannot brute-force one into existence.
-- Every strong alternative is either already owned, too niche, too clinical, or
-  too clever to become a default.
+- Strong alternatives tend to be already taken, or else too niche, too clinical,
+  or too clever to become a default.
 - The rarity is not marketing. It is the reason the name has value at all.
 
 ## 6. Handoff to public content
 
 The public-facing translation of this logic lives in:
-- `content/buyer-fit.md` (the "who could own this" narrative),
+- `content/buyer-fit.md` (the "who could hold this position" narrative),
 - `data/buyers.json` (the structured archetype list the site renders),
 - the site's **Buyer Fit** page.
 

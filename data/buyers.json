@@ -1,12 +1,12 @@
 {
-  "_version": "0.1.0",
-  "_updated": "2026-07-31",
+  "_version": "0.2.0",
+  "_updated": "2026-09-04",
   "_note": "Buyer archetypes rendered by the site's Buyer Fit page. Each archetype must recognize itself. No pricing strategy is exposed here; see BUYER_LOGIC.md for the seller-side reasoning.",
   "archetypes": [
     {
       "id": "coaching-platforms",
       "label": "Coaching & Development Platforms",
-      "sees": "an umbrella name above a generic or founder-named brand",
+      "sees": "a candidate umbrella name above a generic or founder-named brand",
       "buys_because": "they already operate in the category but lack the top-level name that would consolidate it above them",
       "fears_losing": "a competitor consolidating the category first"
     },

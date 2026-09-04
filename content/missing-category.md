@@ -10,14 +10,14 @@
 Most human-development markets operate on the top three layers of a person —
 skill, knowledge, intelligence. Each has a mature market and a category name. The
 layer beneath them, the one that governs the other three under pressure, has
-practitioners everywhere and no top-level name.
+practitioners everywhere and no consolidated top-level name.
 
 ```
 SKILL        — what you can do
 KNOWLEDGE    — what you know
 INTELLIGENCE — how fast you process
 ─────────────────────────────────
-SPIRIT       — how you use all of it   ← the unnamed layer
+SPIRIT       — how you govern it all   ← the unconsolidated layer
 ```
 
 ## Already a category, without a name

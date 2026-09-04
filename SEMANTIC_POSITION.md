@@ -1,3 +1,5 @@
+<!-- rev: 2026-09-04 · asset 0.2.0 · change: add lexical-collision failure condition (D-013) -->
+
 # SEMANTIC_POSITION.md
 
 > A purely linguistic analysis of the phrase "Spirit Trainers." Not a market
@@ -81,8 +83,8 @@ pattern and fills an open slot. "Spirit Trainers" fits the `[Domain] + Trainers`
 pattern and fills the one domain slot the pattern has not yet lexicalized. The
 result is the characteristic sensation of a **missing word**: on first hearing,
 mild surprise that it is *not* already a common term. Linguistically, that
-surprise is the signature of an available category name — a well-formed phrase
-occupying an empty, expected slot.
+surprise is the signature of a category name occupying an open slot — a
+well-formed phrase in an empty, expected position.
 
 ## 8. Failure conditions (linguistic only)
 
@@ -97,6 +99,14 @@ Honesty requires the linguistic risks:
   of practitioners; *Spirit Trainer* (singular) reads as a role. The category
   reading is the plural; materials should prefer it when the category, not the
   role, is meant.
+- **Lexical collision (British English).** In British English *trainers* also
+  means athletic shoes, and the modifier *Spirit* already appears on real
+  footwear. "Spirit Trainers" therefore carries an unrelated footwear reading in
+  some registers. The plural agent-noun sense (*people who train*) and the
+  exact-match domain both work to fix the human-development reading, but the
+  collision is real. It downgrades any "no ambiguity" claim to "an ambiguity the
+  owner is positioned to resolve," and is disclosed in
+  `PRIOR_USE_AND_CATEGORY_DILIGENCE.md`.
 
 ## 9. Conclusion (linguistic)
 

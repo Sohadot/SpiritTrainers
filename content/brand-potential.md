@@ -14,7 +14,7 @@ It describes a method, never dispenses motivation.
 
 ## A linguistic asset
 
-**Spirit** — universal, short, positive, crosses cultures. It names the human
+**Spirit** — secular, short, positive, broadly legible. It names the human
 interior without belonging to any creed.
 
 **Trainer** — practical, professional, implies method and progression. It
