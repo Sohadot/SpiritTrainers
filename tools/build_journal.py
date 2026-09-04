@@ -109,7 +109,7 @@ NAV = '''  <header class="topbar">
 
 FOOTER = '''  <footer>
     <span>Spirit Trainers</span>
-    <span class="v">A category asset · v0.2.0</span>
+    <span class="v">A category asset · v0.2.1</span>
     <a href="../acquisition.html">Acquire the position →</a>
   </footer>'''
 

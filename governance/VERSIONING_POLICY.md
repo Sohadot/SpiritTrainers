@@ -34,9 +34,10 @@ bump, with no exception. The v0.2 reframe (**D-013**) is classified under this
 rule: a Tier 1 thesis refinement whose canonical meaning is unchanged, versioned
 **0.2.0**.
 
-The current version is **0.2.0** — the v0.2 reframe (a category *position*, not
+The current version is **0.2.1** — the v0.2 reframe (a category *position*, not
 novelty; see D-013) plus the diligence layer
-(`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`, `SOURCE_REGISTER.md`). Still pre-1.0
+(`PRIOR_USE_AND_CATEGORY_DILIGENCE.md`, `SOURCE_REGISTER.md`), with a Tier 3 patch
+(D-014) reconciling two residual `ACQUISITION_THESIS.md` phrasings. Still pre-1.0
 because it has not yet been reviewed by its owner as ready for external buyers.
 
 ## 2. What a MAJOR bump requires

@@ -11,8 +11,8 @@
 
 A domain sale asks: *"What is this URL worth to you today?"*
 
-A category acquisition asks: *"What is it worth to own the name of a market
-before it consolidates — and what does it cost you if someone else owns it
+A category acquisition asks: *"What is it worth to hold the name of a market
+before it consolidates — and what does it cost you if someone else holds it
 first?"*
 
 These two questions produce prices that differ by an order of magnitude, and
@@ -33,7 +33,7 @@ the commodity market and into strategic valuation.
 
 ## 3. The components of the acquisition
 
-When a buyer "acquires the category," they receive a coherent bundle:
+When a buyer acquires the category position, they receive a coherent bundle:
 
 1. **The exact-match domain** — `SpiritTrainers.com`, the clean top-level
    identity.
